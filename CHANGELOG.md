@@ -5,14 +5,6 @@ nav_order: 5
 
 # Changelog
 
-All notable changes to the Human-First Engineering manifesto, framework, and toolkit are recorded here.
-
-This project follows [Semantic Versioning](https://semver.org/):
-
-- **MAJOR** — a change in philosophy, principle, or a breaking change to the framework pillars.
-- **MINOR** — a new principle, pillar, behaviour, or toolkit document, or a substantive expansion of existing material.
-- **PATCH** — clarifications, wording improvements, typo fixes, and non-substantive edits.
-
 ## [1.0.0] - 2026-04-19
 
 ### Added
