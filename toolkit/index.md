@@ -10,7 +10,7 @@ Everything you need to introduce, explain, and embed Human-First Engineering in 
 
 The [manifesto](../manifesto.md) is what we believe. The [framework](../framework.md) is how we work. This toolkit is how you bring both of those into a real engineering culture without it becoming another box-ticking exercise.
 
-## What's in the toolkit
+## 🧰 What's in the toolkit
 
 - [Implementation Guide](implementation-guide.md) — the rollout plan, ritual prompts, tooling baseline, and quarterly review. Start here.
 - [Practices](practices.md) — concrete patterns for *how* engineers use AI tools day to day, aligned with Microsoft's Hyper-Velocity Engineering.
@@ -20,7 +20,7 @@ The [manifesto](../manifesto.md) is what we believe. The [framework](../framewor
 - [For Early-Career Engineers](for-early-career-engineers.md) — written *for* junior engineers, not about them. Practical habits for using AI to grow rather than stall.
 - [Relationship to HVE](relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
 
-## How to use this toolkit
+## 🗺️ How to use this toolkit
 
 A reasonable order for most teams:
 
@@ -31,6 +31,6 @@ A reasonable order for most teams:
 5. Embed the framework into your existing rituals as described in the implementation guide.
 6. Revisit quarterly.
 
-## A note on adaptation
+## 🔧 A note on adaptation
 
 These materials are deliberately lightweight. Adapt them. Cut what does not fit your context. Add the examples that will land with your team. The goal is for the principles to be lived, not for the artefacts to be preserved.

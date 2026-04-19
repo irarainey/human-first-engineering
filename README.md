@@ -8,18 +8,16 @@ The risk is not just lower-quality code. It is the quiet deskilling of engineers
 
 Human-First Engineering is a deliberate response: a short statement of what we believe, a five-pillar framework for how we work, and a practical toolkit for embedding both in a team or organisation. The goal is to use AI to grow engineers — not to quietly replace the conditions that produce them.
 
-This project is a lightweight manifesto, framework, and toolkit for using AI in software engineering while intentionally addressing the issues set out above.
-
 The site is published at [humanfirstengineering.dev](https://humanfirstengineering.dev). This repository contains the source.
 
-## Contents
+## 📚 Contents
 
-### Core documents
+### 📜 Core documents
 
 - [The Manifesto](manifesto.md) — what we believe, and why.
 - [The Framework](framework.md) — the five pillars and the behaviours that bring them to life.
 
-### Toolkit
+### 🧰 Toolkit
 
 - [Toolkit overview](toolkit/index.md) — entry point and suggested reading order.
 - [Implementation Guide](toolkit/implementation-guide.md) — step-by-step plan for introducing and embedding the framework in a team.
@@ -30,15 +28,15 @@ The site is published at [humanfirstengineering.dev](https://humanfirstengineeri
 - [For Early-Career Engineers](toolkit/for-early-career-engineers.md) — practical habits for junior engineers, written for them directly.
 - [Relationship to HVE](toolkit/relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
 
-### Project files
+### 📁 Project files
 
 - [Changelog](CHANGELOG.md) — version history.
 - [License](LICENSE.md) — CC BY-NC-SA 4.0.
 
-## The one-line summary
+## ✨ The one-line summary
 
 > Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
-## License
+## ⚖️ License
 
 This work is licensed under CC BY-NC-SA 4.0. Share freely. Build on it. Don't sell it. See [LICENSE](LICENSE.md) for details.

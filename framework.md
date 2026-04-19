@@ -9,7 +9,9 @@ The [manifesto](manifesto.md) is what we believe. The framework is how we work.
 
 It is built on five pillars. Each is a small set of behaviours, not a process. The aim is light enough to remember, concrete enough to guide real decisions.
 
-## Pillar 1 — Think first
+Every pillar is designed to do two things at once: produce better engineering today, and preserve the conditions that grow engineers tomorrow. That second purpose is why this framework exists. Without it, the first is just another AI-productivity checklist.
+
+## 🧠 Pillar 1 — Think first
 
 > AI accelerates execution, not understanding.
 
@@ -25,7 +27,7 @@ Understanding the problem is still the engineer's job. AI is most valuable *afte
 
 This preserves the core engineering skill: thinking clearly about problems. A clear prompt is the by-product of clear thinking, not a substitute for it.
 
-## Pillar 2 — Own the output
+## 🪪 Pillar 2 — Own the output
 
 > AI assists. Humans are accountable.
 
@@ -41,7 +43,7 @@ You are responsible for every line of code that goes out under your name, regard
 
 Ownership is what builds judgement — the thing AI cannot learn for you.
 
-## Pillar 3 — Grow skills, not dependencies
+## 📈 Pillar 3 — Grow skills, not dependencies
 
 > AI should accelerate mastery, not bypass it.
 
@@ -57,7 +59,7 @@ The intuition that makes a great senior engineer is accumulated through wrestlin
 
 This ensures we don't lose the foundational reps that turn juniors into seniors.
 
-## Pillar 4 — Use AI intelligently
+## 🎯 Pillar 4 — Use AI intelligently
 
 > Using AI well is a skill. Using it carelessly is not the same thing.
 
@@ -73,7 +75,7 @@ Getting consistently good output requires deliberate setup and thoughtful use. T
 
 This is the new literacy — the modern equivalent of learning your IDE.
 
-## Pillar 5 — Trust AI, but verify everything
+## 🔍 Pillar 5 — Trust AI, but verify everything
 
 > AI is powerful, but not infallible.
 
@@ -99,7 +101,7 @@ Never share secrets, credentials, or sensitive customer data in prompts. Use app
 
 This is how we stay safe, sane, and high-quality in a world where AI can be confidently wrong.
 
-## The framework in practice
+## 📋 The framework in practice
 
 | Situation | Expected behaviour |
 | --- | --- |
@@ -116,10 +118,10 @@ This is how we stay safe, sane, and high-quality in a world where AI can be conf
 | Choosing a model | Match capability to the task — complexity, volume, cost, and quality. |
 | AI costs creeping up | Treat it like any performance issue. Investigate, identify the waste, fix the pattern. |
 
-## The one-line summary
+## ✨ The one-line summary
 
 > Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
-## Next
+## ➡️ Next
 
 Use the [toolkit](toolkit/index.md) to introduce and embed this in a team or organisation.

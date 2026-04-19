@@ -10,7 +10,11 @@ The questions engineers actually ask about Human-First Engineering. Honest answe
 
 If you have a question that is not here, raise it. The FAQ is meant to grow.
 
-## About the manifesto and framework
+## 📜 About the manifesto and framework
+
+### Why does this framework exist?
+
+Because AI changes what the junior engineering job looks like. The visible tasks juniors used to learn from — small units of code, mechanical bugs, first drafts — are precisely the ones AI now does fastest. Left unchecked, that removes the reps that produce senior engineers, and over a few years the pipeline from junior to senior to principal quietly erodes. This framework exists to prevent that. Better AI-assisted engineering is how we get there; protecting the people who come next is why we bother.
 
 ### Is this just another process I have to follow?
 
@@ -28,7 +32,7 @@ No. It applies to every engineer at every level. Juniors get the most explicit a
 
 Some will. Many will not. AI tooling is changing what good engineering looks like in the moment-to-moment work, and a framework gives the team a shared language for what to expect from each other. Without it, every team member quietly invents their own answer, and the results drift apart.
 
-## About using AI day-to-day
+## 🤖 About using AI day-to-day
 
 ### Am I allowed to use AI for everything?
 
@@ -82,7 +86,7 @@ The standards, conventions, architectural context, and patterns that you want ev
 
 When in doubt, ask. There are no points for being clever about edge cases here.
 
-## About growing as an engineer
+## 🌱 About growing as an engineer
 
 ### Will AI make me a worse engineer?
 
@@ -100,7 +104,7 @@ By demonstrating *judgement*: the questions you ask, the trade-offs you weigh, t
 
 Use AI — but use it to *reason with*, not to replace the reasoning. Ask it to explain, to challenge your approach, to propose alternatives. Pair with a human too. The goal is not to suffer pointlessly, and it is not to refuse the tools. It is to make sure the thinking muscle is growing, not atrophying.
 
-## About teams and reviews
+## 👥 About teams and reviews
 
 ### What does code review look like under this framework?
 
@@ -118,7 +122,7 @@ Disagreement is expected and healthy. Bring the conversation to a retro or a des
 
 The framework is not a brake on output. It is a guard against the kind of speed that produces debt. If you genuinely feel pressure to ship things you do not understand, that is a leadership conversation worth having directly — and the framework gives you the language for it.
 
-## About risk and quality
+## 🛡️ About risk and quality
 
 ### What about AI hallucinations?
 
@@ -136,7 +140,7 @@ Useful for coverage and for catching obvious cases. Not a substitute for thinkin
 
 Celebrate it. Share it with the team. Spotting an AI mistake is a high-value engineering skill — it means you understood the system well enough to know when something was subtly wrong. That is exactly the kind of judgement we want to grow.
 
-## About culture
+## 🏛️ About culture
 
 ### Is asking for help a sign of weakness?
 

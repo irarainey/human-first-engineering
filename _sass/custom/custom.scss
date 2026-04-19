@@ -77,23 +77,31 @@
   padding-top: 0.75rem !important;
 }
 
-// Hide the sidebar footer ("This site uses Just the Docs...")
-// The mobile variant is a plain <footer> with .d-md-none inside .site-footer.
-footer,
-.site-footer,
-.site-footer *,
-.side-bar .site-footer,
+// Hide the sidebar footer ("This site uses Just the Docs...") ONLY.
+// Do not hide the main page footer (`.site-footer` inside `.main`) — we use that
+// for our own licence + source-on-GitHub line via `_includes/footer_custom.html`.
 .side-bar footer,
-nav.site-nav + footer,
-.side-bar > footer,
-.site-footer .d-md-none,
-footer .d-md-none {
+.side-bar .site-footer,
+.side-bar .site-footer *,
+.side-bar footer .d-md-none {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
   overflow: hidden !important;
+}
+
+// Site-wide footer rendered on every page via _includes/footer_custom.html
+.site-footer-custom {
+  margin: 3rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: $grey-dk-000;
+  opacity: 0.75;
 }
 
 // Hide the top navigation bar entirely (was reserved for search + aux links)

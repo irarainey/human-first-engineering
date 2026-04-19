@@ -23,7 +23,7 @@ npx @marp-team/marp-cli@latest slide-deck.md -o human-first-engineering.pdf
 npx @marp-team/marp-cli@latest slide-deck.md -o human-first-engineering.pptx
 ```
 
-## The deck
+## 🎬 The deck
 
 ```markdown
 ---

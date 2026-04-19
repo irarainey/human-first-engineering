@@ -10,23 +10,23 @@ A practical, step-by-step plan for introducing and embedding the [manifesto](../
 
 This is not a process. It is a way of working. The goal is to make the principles visible, repeated, and lived — not laminated to a wall.
 
-## 1. Start with the *why*
+## 1️⃣ Start with the *why*
 
 Open with the core truth:
 
+- **The real risk is not replacement — it is deskilling.** This framework exists because of it.
+- Early-career engineers are the most exposed. The pipeline from junior to senior to principal is what is at stake.
 - AI is changing how software is built.
-- The real risk is not replacement — it is deskilling.
-- Early-career engineers are the most exposed.
 - Engineering has always evolved with its tools.
 - This manifesto protects the craft *and* the people who practise it.
 
 Frame the conversation around growth, not fear.
 
-## 2. Tell the story of continuity
+## 2️⃣ Tell the story of continuity
 
 Connect AI explicitly to the long lineage of assistive tools — autocomplete, IntelliSense, refactoring tools, static analysis, code generation. This grounds the change in familiarity and reduces anxiety. AI is a bigger step on the same ladder, not a different one.
 
-## 3. Introduce the manifesto first (identity)
+## 3️⃣ Introduce the manifesto first (identity)
 
 Present the manifesto as:
 
@@ -36,11 +36,11 @@ Present the manifesto as:
 
 This is the emotional, identity-driven part. Resist the urge to jump straight to behaviours.
 
-## 4. Introduce the framework second (behaviour)
+## 4️⃣ Introduce the framework second (behaviour)
 
 The framework is the *how*: five pillars, simple enough to remember, actionable enough to guide decisions. Emphasise that it is not a process to comply with — it is a way of working to internalise.
 
-## 5. Run a team intro session
+## 5️⃣ Run a team intro session
 
 A suggested 30–45 minute format:
 
@@ -54,9 +54,9 @@ A suggested 30–45 minute format:
 
 Capture the answers. They become your team's first commitments.
 
-## 6. Empower principals and seniors as multipliers
+## 6️⃣ Empower principals and seniors as multipliers
 
-Senior ICs are where culture becomes durable. Charge them explicitly with:
+Senior engineers are where culture becomes durable. Charge them explicitly with:
 
 - Modelling the behaviours.
 - Mentoring juniors in AI-assisted workflows.
@@ -66,7 +66,7 @@ Senior ICs are where culture becomes durable. Charge them explicitly with:
 
 Make this part of the role expectation, not an extracurricular favour.
 
-## 7. Embed into existing rituals
+## 7️⃣ Embed into existing rituals
 
 Do not add new ceremonies. Weave the framework into ones you already run.
 
@@ -80,7 +80,7 @@ Do not add new ceremonies. Weave the framework into ones you already run.
 | Performance conversations | *Is this engineer growing in judgement, or just in output?* |
 | Incident reviews | *Did anyone ship something they did not fully understand?* |
 
-## 8. Invest in the tooling layer
+## 8️⃣ Invest in the tooling layer
 
 The framework only works if the tooling around it is in good shape. As a baseline, every team should have:
 
@@ -92,7 +92,7 @@ The framework only works if the tooling around it is in good shape. As a baselin
 
 These are small artefacts. They have an outsized effect on quality.
 
-## 9. Review quarterly
+## 9️⃣ Review quarterly
 
 AI evolves fast. Schedule a short, recurring review to ask:
 
@@ -104,7 +104,7 @@ AI evolves fast. Schedule a short, recurring review to ask:
 
 Keep the framework alive. A static manifesto in a fast-moving discipline becomes a museum piece.
 
-## 10. Celebrate the right things
+## 🔟 Celebrate the right things
 
 Reinforce culture by highlighting:
 
@@ -118,6 +118,6 @@ Repetition builds belief. Repeat the one-line summary often:
 
 > Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
-## A final note
+## 📝 A final note
 
 This is not finished work. It is a starting position for an industry that is changing under our feet. Take what is useful, adapt the rest, and share back what you learn. The pipeline of engineers we are growing today is the senior engineering bench of the next decade — and it is on all of us to protect it.

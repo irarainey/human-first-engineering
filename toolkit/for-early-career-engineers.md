@@ -12,7 +12,7 @@ You are entering the industry at a moment when the most visible parts of the jun
 
 Human-First Engineering does not put restrictions on what you are allowed to do with AI. You are trusted to use it, heavily, from day one. What follows is how to use it in a way that actually grows you.
 
-## What to do more of
+## ✅ What to do more of
 
 ### Form your own first thought before you prompt
 
@@ -38,7 +38,7 @@ When something breaks, it is tempting to paste the error into a chat and apply w
 
 Behind every *what* is a *why*. Why this pattern? Why this library? Why this architecture? Why this trade-off? The engineers who become seniors are the ones who kept asking why long after it felt awkward to ask. AI is patient with that question. Use it.
 
-## What to watch out for
+## ⚠️ What to watch out for
 
 ### Surface fluency without comprehension
 
@@ -56,7 +56,7 @@ AI is confident. It is not always correct. "The AI said so" is never a reason. V
 
 If your first move on every problem is to prompt, you are training yourself out of having first thoughts. Protect the muscle. Think first, even briefly. The quality of your prompts — and your career — depends on it.
 
-## What you are owed
+## 🤝 What you are owed
 
 These practices are yours. In return, you are owed:
 
@@ -67,7 +67,7 @@ These practices are yours. In return, you are owed:
 
 If you are not getting these, that is a conversation to have — with your manager, your mentor, or the person running engineering.
 
-## The short version
+## ✨ The short version
 
 - Think before you prompt.
 - Read what AI produces until you can explain it.
@@ -78,7 +78,7 @@ If you are not getting these, that is a conversation to have — with your manag
 
 Use AI fully. Use it deliberately. The engineers who will thrive in this decade are the ones who used AI to grow faster, not to avoid growing.
 
-## See also
+## 🔗 See also
 
 - [The Manifesto](../manifesto.md#a-commitment-to-early-career-engineers) — the commitment to early-career engineers.
 - [The Framework — Pillar 3](../framework.md#pillar-3--grow-skills-not-dependencies) — grow skills, not dependencies.

@@ -19,13 +19,8 @@ That risk falls most heavily on the engineers entering the industry today. They 
 
 This site is a lightweight response to that risk: a manifesto, a framework, and a practical guide for putting both into practice.
 
-## Read the documents
+## 📚 Read the documents
 
 - [The Manifesto](manifesto.md) — what we believe, and why.
 - [The Framework](framework.md) — how we work in practice.
 - [The Toolkit](toolkit/index.md) — implementation guide, practices, talking points, slide deck, and developer FAQ for putting it all into practice.
-
----
-<p class="page-meta">
-Licensed under <a href="LICENSE.md">CC BY-NC-SA 4.0</a>. Share freely. Build on it. Don't sell it.
-</p>

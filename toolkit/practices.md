@@ -10,7 +10,9 @@ The [manifesto](../manifesto.md) and [framework](../framework.md) tell us *what*
 
 It is a complement to the framework's [Pillar 4 — Use AI intelligently](../framework.md#pillar-4--use-ai-intelligently), not a replacement for it.
 
-## Relationship to Hyper-Velocity Engineering
+These patterns are how teams move fast with AI. The framework's job is to make sure that moving fast does not cost us the engineers who come next. Keep that in view as you read: the practices are the means, not the point.
+
+## 🤝 Relationship to Hyper-Velocity Engineering
 
 **Hyper-Velocity Engineering (HVE)** is a term [coined by Mike Lanzetta](https://www.linkedin.com/pulse/what-hypervelocity-engineering-mike-lanzetta-ckfwc/) of Microsoft's Industry Solutions Engineering (ISE) group. It describes a high-performance, AI-accelerated approach to software that lets expert, multi-disciplinary teams deliver production-quality outcomes at high speed — amplifying productivity and unlocking high-ROI innovation.
 
@@ -35,7 +37,7 @@ HVE's own findings make the case plainly: the biggest gains happen when AI is us
 
 The practices below lean on HVE's patterns and fit inside HFE's principles.
 
-## Where AI speeds you up
+## ⚡ Where AI speeds you up
 
 Based on both broad experience and the [HVE use cases published by Microsoft ISE](https://devblogs.microsoft.com/ise/accelerating-ai-development-with-github-copilot-real-world-use-cases/), AI tends to accelerate work that is:
 
@@ -45,7 +47,7 @@ Based on both broad experience and the [HVE use cases published by Microsoft ISE
 - **Greenfield** — generating new code with few existing constraints.
 - **Doc-shaped** — READMEs, ADRs, diagrams, demo scripts, test scaffolding.
 
-## Where AI slows you down
+## 🐢 Where AI slows you down
 
 The same sources consistently flag work where naive AI use *loses* time:
 
@@ -56,7 +58,7 @@ The same sources consistently flag work where naive AI use *loses* time:
 
 Rule of thumb: if you cannot review the output critically, you are not the right person to be generating it with AI yet. Pair with someone who can, or read and learn the codebase until you can review it on your own.
 
-## High-leverage patterns
+## 🚀 High-leverage patterns
 
 These are patterns worth adopting team-wide. Each has a clear shape, a clear boundary, and a clear human-in-the-loop checkpoint.
 
@@ -119,7 +121,7 @@ Poor output is almost always a context problem. Before re-running a prompt, chec
 - Did you tell the model what *not* to do (e.g. do not invent APIs, do not duplicate existing logic)?
 - Are you using the right mode (ask vs. agent, with vs. without code context)?
 
-Relevant context is leverage. All context is noise. Provide the first, not the second.
+Relevant context is leverage. Too much context is noise. Provide the first, not the second.
 
 ### Codify team standards into AI guidance
 
@@ -148,7 +150,7 @@ HVE is explicit: AI pairing is not just for coders. Every discipline on a produc
 - **Engineers** — design, implementation, review, and refactor.
 - **TPMs / PMs** — sharpening stories, surfacing risks, rehearsing stakeholder conversations.
 - **Designers** — iterating on mockups, discussing colour theory, drafting storyboards.
-- **Security SMEs** — threat modelling, attack-surface analysis, drafting guidance that flows back into the AI's rules.
+- **Security engineers** — threat modelling, attack-surface analysis, drafting guidance that flows back into the AI's rules.
 - **Data scientists** — structured experimental code, evaluation logic, unit tests for throwaway notebooks.
 
 This has a direct HFE implication: pairing with AI is not a substitute for pairing with humans. The point is that *pairing itself* becomes the default — sometimes with another person, sometimes with an AI, often with both.
@@ -167,7 +169,7 @@ Match the model to the task:
 
 Using a frontier model for a trivial lookup wastes money. Using a small model for architectural reasoning wastes time and produces worse output. Both are mismatches.
 
-## Anti-patterns to avoid
+## ⛔ Anti-patterns to avoid
 
 These are the patterns that produce the "2x slower" outcome reported in the HVE use cases:
 
@@ -178,7 +180,7 @@ These are the patterns that produce the "2x slower" outcome reported in the HVE 
 - **Skipping verification for "simple" changes.** Simple is where confident-but-wrong output hides best.
 - **Using AI to bypass the learning, rather than to accelerate it.** The framework's [Pillar 3](../framework.md#pillar-3--grow-skills-not-dependencies) exists precisely for this.
 
-## Team artefacts worth maintaining
+## 📦 Team artefacts worth maintaining
 
 A small number of shared artefacts give an outsized return. Every team running at HVE speed should have:
 
@@ -190,7 +192,7 @@ A small number of shared artefacts give an outsized return. Every team running a
 
 Keep them short. Review them regularly. Treat them as first-class engineering artefacts.
 
-## Getting started
+## 🏁 Getting started
 
 Adapted from HVE's own four-step starter, with HFE's human-growth lens added:
 
@@ -199,7 +201,7 @@ Adapted from HVE's own four-step starter, with HFE's human-growth lens added:
 3. **Encourage cross-functional pairing with AI assistants.** Not just engineers — TPMs, designers, security, data science.
 4. **Measure velocity, quality, *and* engineer growth.** Not just story points closed, but defect rates, incident frequency, review depth, and — the HFE addition — the growth of the engineers doing the work.
 
-## Further reading
+## 📚 Further reading
 
 - [Hyper-Velocity Engineering — Mike Lanzetta](https://www.linkedin.com/pulse/what-hypervelocity-engineering-mike-lanzetta-ckfwc/)
 - [Accelerating AI Development with GitHub Copilot — Microsoft ISE](https://devblogs.microsoft.com/ise/accelerating-ai-development-with-github-copilot-real-world-use-cases/)

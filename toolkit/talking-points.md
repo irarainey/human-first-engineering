@@ -10,11 +10,11 @@ Concise messaging for introducing Human-First Engineering. Use these in introduc
 
 These are not a script. They are the underlying *ideas*, expressed in a few different ways for different audiences. Pick the framing that fits the room.
 
-## The 30-second pitch
+## ⏱️ The 30-second pitch
 
 > AI is changing how software is built faster than any tool we have seen before. The biggest risk is not that it replaces engineers — it is that it quietly stops them from becoming senior ones. Human-First Engineering is a lightweight manifesto and framework that lets us go faster *and* keep growing engineers. Tools evolve. Craft endures.
 
-## The two-minute pitch
+## 🗣️ The two-minute pitch
 
 > For decades, every new tool — autocomplete, IntelliSense, refactoring, static analysis — has made engineers faster. AI is the next step on that same ladder, but it is a much bigger step.
 >
@@ -24,11 +24,11 @@ These are not a script. They are the underlying *ideas*, expressed in a few diff
 >
 > Human-First Engineering is our response. A short manifesto on what we believe, a five-pillar framework on how we work, and a practical toolkit for embedding both. The point is simple: we use AI to grow engineers, accelerate delivery, and protect quality — not to trade one off against the other.
 
-## The one-line summary
+## ✨ The one-line summary
 
 > Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
-## Talking points for an introduction meeting
+## 📌 Talking points for an introduction meeting
 
 Use these as the spine of a 15–20 minute opener. Each is a single idea you can land in 60–90 seconds.
 
@@ -73,7 +73,7 @@ Use these as the spine of a 15–20 minute opener. Each is a single idea you can
 - Use the toolkit to embed it in our existing rituals.
 - Revisit it quarterly. AI is moving fast — so will we.
 
-## Talking points by audience
+## 👥 Talking points by audience
 
 ### For executives and senior leaders
 
@@ -104,7 +104,7 @@ Use these as the spine of a 15–20 minute opener. Each is a single idea you can
 - Ask questions freely. Bring problems before they become blockers. That is professional maturity, not weakness.
 - You are owed: the *why* behind the *what*, safe spaces to be wrong, honest feedback, and the recognition that growth takes time.
 
-## Phrases worth repeating
+## 💬 Phrases worth repeating
 
 Short, memorable lines that travel well in conversation:
 
@@ -116,7 +116,7 @@ Short, memorable lines that travel well in conversation:
 - *Use AI with skill, not by reflex.*
 - *Previous tools automated the tedious. This one can accidentally automate the educational.*
 
-## Things to avoid saying
+## ⛔ Things to avoid saying
 
 - *"AI changes everything."* It changes a lot, but the framing is unhelpful — it produces fear and false novelty. Engineering principles are intact.
 - *"Just use AI for everything."* Encourages exactly the deskilling pattern we are trying to prevent.
