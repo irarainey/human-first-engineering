@@ -23,10 +23,6 @@ This site is a lightweight response to that risk: a manifesto, a framework, and 
 - [The Framework](framework.md) — how we work in practice.
 - [The Toolkit](toolkit/index.md) — implementation guide, practices, talking points, slide deck, and developer FAQ for putting it all into practice.
 
-## The one-line summary
-
-> AI is the next step in a long history of assistive tools — and we use it to grow engineers, accelerate delivery, and protect quality.
-
 ## Version
 
 This is **1.0.0** of the Human-First Engineering manifesto, framework, and toolkit. See the [changelog](CHANGELOG.md) for the full history.
