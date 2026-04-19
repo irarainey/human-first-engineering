@@ -46,11 +46,19 @@
 }
 
 // Hide the sidebar footer ("This site uses Just the Docs...")
+// Covers desktop + mobile, old + new Just the Docs versions
 .site-footer,
 .site-footer *,
+.side-bar .site-footer,
+.side-bar footer,
 nav.site-nav + footer,
 .side-bar > footer {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
 }
 
 // Hide the top navigation bar entirely (was reserved for search + aux links)
