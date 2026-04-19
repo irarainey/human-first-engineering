@@ -7,8 +7,6 @@ nav_order: 1
 
 **Growing engineers in the age of AI.**
 
-> Tools evolve. Craft endures.
-
 What happens to software engineering when we can generate code faster than we can understand it?
 
 For most of our industry's history, the limiting factor has been *writing* software. Every generation of tooling — compilers, higher-level languages, IDEs, autocomplete, static analysis — has chipped away at that friction. AI is the next step on that same ladder.

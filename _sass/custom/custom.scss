@@ -39,9 +39,10 @@
 }
 
 .site-nav {
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
+// Hide the sidebar footer ("This site uses Just the Docs...")
 .site-footer {
-    display: none;
+  display: none;
 }

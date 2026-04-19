@@ -22,12 +22,7 @@ relative_links:
   collections: true
 
 # Just the Docs configuration
-search_enabled: true
-search:
-  heading_level: 3
-  previews: 2
-  preview_words_before: 3
-  preview_words_after: 3
+search_enabled: false
 
 heading_anchors: true
 
@@ -36,8 +31,6 @@ aux_links:
     - "https://github.com/irarainey/human-first-engineering"
 
 aux_links_new_tab: true
-
-footer_content: "Human-First Engineering &middot; <a href=\"https://github.com/irarainey/human-first-engineering\">Source on GitHub</a>"
 
 defaults:
   - scope:
