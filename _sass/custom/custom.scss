@@ -1,14 +1,28 @@
 // Custom styles layered on top of Just the Docs
 
+// Allow the site header to grow so the tagline is not clipped by its fixed height
+.site-header {
+  height: auto;
+  min-height: $header-height;
+  max-height: none;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .site-title {
   display: block;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .site-tagline {
   display: block;
-  max-width: 18rem;
-  margin-top: 0.3rem;
-  margin-bottom: 0.5rem;
+  max-width: 16rem;
+  margin-top: 1rem;
+  padding-left: $sp-4;
+  padding-right: $sp-4;
   font-size: 0.72rem;
   font-weight: 400;
   font-style: italic;
@@ -16,4 +30,9 @@
   color: $grey-dk-000;
   opacity: 0.75;
   white-space: normal;
+}
+
+// Push the nav down so it starts below the expanded header
+.site-nav {
+  padding-top: 1rem;
 }
