@@ -17,6 +17,7 @@ The [manifesto](../manifesto.md) is what we believe. The [framework](../framewor
 - [Talking Points](talking-points.md) — concise messaging for introduction meetings, all-hands, and 1:1s. Use these when you need to *say* the framework out loud.
 - [Slide Deck](slide-deck.md) — a ready-to-present deck for a 30–45 minute team session. Markdown-based and compatible with [Marp](https://marp.app) or any reveal.js-style renderer.
 - [Developer FAQ](developer-faq.md) — the questions engineers actually ask. Honest answers, not corporate ones.
+- [For Early-Career Engineers](for-early-career-engineers.md) — written *for* junior engineers, not about them. Practical habits for using AI to grow rather than stall.
 - [Relationship to HVE](relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
 
 ## How to use this toolkit

@@ -27,6 +27,7 @@ The site is published at [humanfirstengineering.dev](https://humanfirstengineeri
 - [Talking Points](toolkit/talking-points.md) — concise messaging for intro meetings, all-hands, and 1:1s.
 - [Slide Deck](toolkit/slide-deck.md) — a ready-to-present Markdown deck for a 30–45 minute team session.
 - [Developer FAQ](toolkit/developer-faq.md) — the questions engineers actually ask.
+- [For Early-Career Engineers](toolkit/for-early-career-engineers.md) — practical habits for junior engineers, written for them directly.
 - [Relationship to HVE](toolkit/relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
 
 ### Project files
