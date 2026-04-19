@@ -26,12 +26,6 @@ search_enabled: false
 
 heading_anchors: true
 
-aux_links:
-  "View on GitHub":
-    - "https://github.com/irarainey/human-first-engineering"
-
-aux_links_new_tab: true
-
 defaults:
   - scope:
       path: ""
