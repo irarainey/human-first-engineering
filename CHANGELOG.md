@@ -1,3 +1,8 @@
+---
+title: Changelog
+nav_order: 5
+---
+
 # Changelog
 
 All notable changes to the Human-First Engineering manifesto, framework, and toolkit are recorded here.

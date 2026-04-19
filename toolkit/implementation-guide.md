@@ -6,7 +6,7 @@ nav_order: 1
 
 # Implementation Guide
 
-A practical, step-by-step plan for introducing and embedding the [manifesto](manifesto.md) and [framework](framework.md) in a team or organisation.
+A practical, step-by-step plan for introducing and embedding the [manifesto](../manifesto.md) and [framework](../framework.md) in a team or organisation.
 
 This is not a process. It is a way of working. The goal is to make the principles visible, repeated, and lived — not laminated to a wall.
 
