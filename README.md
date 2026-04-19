@@ -4,15 +4,17 @@
 
 > Tools evolve. Craft endures.
 
-A lightweight manifesto and framework for using AI in software engineering without quietly deskilling the engineers — and the pipeline — that the industry depends on.
+A lightweight manifesto, framework, and toolkit for using AI in software engineering without quietly deskilling the engineers — and the talent pipeline — that the industry depends on.
+
+The site is published at [humanfirstengineering.dev](https://humanfirstengineering.dev). This repository contains the source.
 
 ## Contents
 
 - [The Manifesto](manifesto.md) — what we believe, and why.
 - [The Framework](framework.md) — the five pillars and how we work in practice.
-- [The Toolkit](toolkit/index.md) — implementation guide, practices, talking points, slide deck, and developer FAQ for embedding the framework in a team or organisation.
-- [Landing page](index.md) — the GitHub Pages entry point.
+- [The Toolkit](toolkit/index.md) — implementation guide, practices, talking points, slide deck, developer FAQ, and how HFE relates to Microsoft's Hyper-Velocity Engineering.
 - [Changelog](CHANGELOG.md) — version history.
+- [License](LICENSE.md) — CC BY-NC-SA 4.0.
 
 ## Versioning
 
@@ -24,14 +26,14 @@ The current version is recorded in [VERSION](VERSION) and the full history is in
 
 Releases are tagged in Git as `X.Y.Z` (for example, `1.0.0`).
 
-## Publishing as GitHub Pages
+## Publishing
 
-This site is published to [humanfirstengineering.dev](https://humanfirstengineering.dev) via GitHub Pages, built and deployed by the workflow at [.github/workflows/pages.yml](.github/workflows/pages.yml).
+The site is built with Jekyll using the [Just the Docs](https://just-the-docs.com/) theme (via `remote_theme`) and deployed to GitHub Pages by the workflow at [.github/workflows/pages.yml](.github/workflows/pages.yml).
 
 To set it up on a fresh repository:
 
 1. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-2. Push to `main`. The workflow builds with Jekyll (Cayman theme) and deploys.
+2. Push to `main`. The workflow builds and deploys automatically.
 3. To preview locally: `bundle install && bundle exec jekyll serve --livereload`.
 
 ### Custom domain
