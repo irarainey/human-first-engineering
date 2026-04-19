@@ -31,6 +31,11 @@
 @media (max-width: 49.9375rem) {
   .site-title {
     padding-left: 0 !important;
+    margin-left: 16px !important;
+  }
+  .site-tagline {
+    margin-left: 16px !important;
+    max-width: 32rem !important;
   }
 }
 
