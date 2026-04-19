@@ -28,7 +28,7 @@
   display: block;
   max-width: 16rem;
   margin: 0.4rem 0 0.75rem;
-  padding: 0 $sp-4;
+  padding: 1rem 0 0 0;
   font-size: 0.72rem;
   font-weight: 400;
   font-style: italic;
@@ -36,4 +36,12 @@
   color: $grey-dk-000;
   opacity: 0.75;
   white-space: normal;
+}
+
+.site-nav {
+  margin-top: 1rem;
+}
+
+.site-footer {
+    display: none;
 }
