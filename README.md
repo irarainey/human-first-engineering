@@ -2,8 +2,6 @@
 
 **Growing engineers in the age of AI.**
 
-> Tools evolve. Craft endures.
-
 A lightweight manifesto, framework, and toolkit for using AI in software engineering without quietly deskilling the engineers — and the talent pipeline — that the industry depends on.
 
 The site is published at [humanfirstengineering.dev](https://humanfirstengineering.dev). This repository contains the source.
