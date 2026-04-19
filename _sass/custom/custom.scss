@@ -46,13 +46,16 @@
 }
 
 // Hide the sidebar footer ("This site uses Just the Docs...")
-// Covers desktop + mobile, old + new Just the Docs versions
+// The mobile variant is a plain <footer> with .d-md-none inside .site-footer.
+footer,
 .site-footer,
 .site-footer *,
 .side-bar .site-footer,
 .side-bar footer,
 nav.site-nav + footer,
-.side-bar > footer {
+.side-bar > footer,
+.site-footer .d-md-none,
+footer .d-md-none {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
