@@ -113,6 +113,8 @@ We remember that **writing code has never been the whole job**.
 
 We **think before we generate**.
 
+We use AI **with skill, not by reflex**.
+
 We **own what we ship**.
 
 We **trust AI, but we verify everything**.
@@ -161,7 +163,6 @@ A clear prompt is the by-product of clear thinking.
 
 *AI should accelerate mastery, not bypass it.*
 
-- Think before you generate.
 - Read what the AI produces. Understand *why*, not just *that*.
 - Debug *with* AI, not around it — use it as a pairing partner.
 - Protect junior learning opportunities.
@@ -172,11 +173,9 @@ A clear prompt is the by-product of clear thinking.
 
 *Using AI well is a skill. Using it carelessly is not the same thing.*
 
-- **Model selection** — match the model to the task.
-- **Instruction files** — short, focused, versioned.
-- **Reusable prompts and skills** — share them like utility functions.
-- **Agents** — define scope and checkpoints up front.
-- **Token discipline** — relevant context, not all context.
+- **Match the model to the task** — small, frontier, code-specialised, vision, or agent.
+- **Encode team context in instruction files** and share prompt patterns like utility functions.
+- **Prompt with precision** — relevant context, not all context.
 
 ---
 
@@ -230,7 +229,7 @@ In small groups, answer:
 
 ## The one-line summary
 
-> AI is the next step in a long history of assistive tools — and we use it to grow engineers, accelerate delivery, and protect quality.
+> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
 ---
 

@@ -6,50 +6,37 @@ A lightweight manifesto, framework, and toolkit for using AI in software enginee
 
 The site is published at [humanfirstengineering.dev](https://humanfirstengineering.dev). This repository contains the source.
 
+## The idea
+
+AI is the next step in a long history of assistive tools. Previous tools automated the tedious. This one can accidentally automate the *educational* — removing the visible struggle that is the mechanism of learning. Left to chance, that erodes the pipeline from junior to senior to principal.
+
+Human-First Engineering is a deliberate response: a short statement of what we believe, a five-pillar framework for how we work, and a practical toolkit for embedding both in a team or organisation.
+
 ## Contents
 
+### Core documents
+
 - [The Manifesto](manifesto.md) — what we believe, and why.
-- [The Framework](framework.md) — the five pillars and how we work in practice.
-- [The Toolkit](toolkit/index.md) — implementation guide, practices, talking points, slide deck, developer FAQ, and how HFE relates to Microsoft's Hyper-Velocity Engineering.
+- [The Framework](framework.md) — the five pillars and the behaviours that bring them to life.
+
+### Toolkit
+
+- [Toolkit overview](toolkit/index.md) — entry point and suggested reading order.
+- [Implementation Guide](toolkit/implementation-guide.md) — step-by-step plan for introducing and embedding the framework in a team.
+- [Practices](toolkit/practices.md) — concrete day-to-day patterns for using AI tools well, aligned with Microsoft's Hyper-Velocity Engineering.
+- [Talking Points](toolkit/talking-points.md) — concise messaging for intro meetings, all-hands, and 1:1s.
+- [Slide Deck](toolkit/slide-deck.md) — a ready-to-present Markdown deck for a 30–45 minute team session.
+- [Developer FAQ](toolkit/developer-faq.md) — the questions engineers actually ask.
+- [Relationship to HVE](toolkit/relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
+
+### Project files
+
 - [Changelog](CHANGELOG.md) — version history.
 - [License](LICENSE.md) — CC BY-NC-SA 4.0.
 
-## Versioning
-
-The current version is recorded in [VERSION](VERSION) and the full history is in [CHANGELOG.md](CHANGELOG.md). This project follows [Semantic Versioning](https://semver.org/):
-
-- **MAJOR** — a change in philosophy, principle, or a breaking change to the framework pillars.
-- **MINOR** — a new principle, pillar, behaviour, or toolkit document, or a substantive expansion.
-- **PATCH** — clarifications, wording improvements, and non-substantive edits.
-
-Releases are tagged in Git as `X.Y.Z` (for example, `1.0.0`).
-
-## Publishing
-
-The site is built with Jekyll using the [Just the Docs](https://just-the-docs.com/) theme (via `remote_theme`) and deployed to GitHub Pages by the workflow at [.github/workflows/pages.yml](.github/workflows/pages.yml).
-
-To set it up on a fresh repository:
-
-1. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-2. Push to `main`. The workflow builds and deploys automatically.
-3. To preview locally: `bundle install && bundle exec jekyll serve --livereload`.
-
-### Custom domain
-
-The custom domain is configured via the [CNAME](CNAME) file in this repo plus DNS records at the domain registrar:
-
-- **Apex (`humanfirstengineering.dev`)** — `A` records pointing to GitHub Pages' four IPs:
-  - `185.199.108.153`
-  - `185.199.109.153`
-  - `185.199.110.153`
-  - `185.199.111.153`
-- **`www` subdomain (optional)** — `CNAME` record pointing to `irarainey.github.io`.
-
-After DNS propagates, go to **Settings → Pages**, confirm the custom domain, and tick **Enforce HTTPS**.
-
 ## The one-line summary
 
-> AI is the next step in a long history of assistive tools — and we use it to grow engineers, accelerate delivery, and protect quality.
+> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
 ## License
 

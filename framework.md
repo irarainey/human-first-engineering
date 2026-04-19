@@ -5,9 +5,9 @@ nav_order: 3
 
 # The Human-First Engineering Framework
 
-The [manifesto](manifesto.md) is who we are. The framework is how we work.
+The [manifesto](manifesto.md) is what we believe. The framework is how we work.
 
-It is built on five pillars. Each is a small set of behaviours, not a process. The aim is to be light enough to remember and concrete enough to guide real decisions.
+It is built on five pillars. Each is a small set of behaviours, not a process. The aim is light enough to remember, concrete enough to guide real decisions.
 
 ## Pillar 1 — Think first
 
@@ -17,9 +17,8 @@ Understanding the problem is still the engineer's job. AI is most valuable *afte
 
 ### Behaviours
 
-- Frame the problem before prompting.
+- Frame the problem, constraints, and success criteria before prompting.
 - Sketch a design before generating code.
-- Identify constraints, risks, and success criteria up front.
 - Use AI to explore alternatives, not to decide for you.
 
 ### Why this matters
@@ -35,9 +34,8 @@ You are responsible for every line of code that goes out under your name, regard
 ### Behaviours
 
 - Every line of AI-generated code has a named human owner.
-- Code reviews focus on reasoning, not syntax.
-- AI usage is disclosed where it influences design or non-trivial logic.
 - If you cannot explain it, you do not ship it.
+- Code reviews focus on reasoning, not syntax.
 
 ### Why this matters
 
@@ -51,12 +49,9 @@ The intuition that makes a great senior engineer is accumulated through wrestlin
 
 ### Behaviours
 
-- **Think before you generate.** For non-trivial problems, form your own view of the shape of the solution before prompting — what the constraints are, what success looks like, which approaches you would consider. Use AI to accelerate your reasoning, not to do it for you.
 - **Read what the AI produces.** Trace through it. Understand *why* it works, not just *that* it works. If you cannot, read more carefully — or ask a different question — until you can.
-- **Debug with AI, not around it.** Use AI as a pairing partner in debugging: ask it to explain, hypothesise, and challenge your thinking. The skill to grow is the reasoning, not the typing.
-- **Understand tests as well as you generate them.** Before you ask AI to expand test coverage, know what *should* be tested. A test that passes for the wrong reason is worse than no test at all.
+- **Debug with AI, not around it.** Use AI as a pairing partner: ask it to explain, hypothesise, and challenge your thinking. The skill to grow is the reasoning, not the typing.
 - **Protect junior learning opportunities.** Do not optimise the reasoning out of their work. They need reps in reading, tracing, and explaining — not just in producing output.
-- **Hold regular sessions where AI tooling is intentionally set aside.** Not to be purist, but to keep the underlying engineering muscles awake.
 
 ### Why this matters
 
@@ -70,17 +65,9 @@ Getting consistently good output requires deliberate setup and thoughtful use. T
 
 ### Behaviours
 
-- **Model selection** — match the model to the task.
-  - Small / fast models for iteration, repetitive tasks, and high-volume work.
-  - Large / frontier models for complex reasoning, architecture, and nuanced judgement.
-  - Code-specialised models for refactoring, tests, and boilerplate.
-  - Vision models for diagrams, screenshots, and UI review.
-  - Agents for genuinely multi-step workflows — not single tasks.
-- **Instruction files** — short, focused, versioned. Encode team standards, conventions, and architectural context. Every project owns one.
-- **Reusable skills and patterns** — share prompt patterns the way you share utility functions.
-- **Agents and orchestration** — define scope, checkpoints, and review points before you start. The longer an agent runs unsupervised, the more those boundaries matter.
-- **Prompting with precision** — vague prompts produce vague output. Treat prompts as drafts: revisable, refinable, worth sharing when they work well.
-- **Considerate token use** — provide relevant context, not all context. Treat unnecessary tokens like any other inefficiency.
+- **Match the model to the task.** Small and fast for iteration and high-volume work; frontier models for complex reasoning and architecture; code-specialised for refactoring and tests; vision for diagrams and UI; agents only for genuinely multi-step workflows.
+- **Encode team context in instruction files.** Short, focused, versioned. Every project owns one. Share prompt patterns the way you share utility functions.
+- **Prompt with precision.** Vague prompts produce vague output. Provide relevant context, not all context. Treat prompts as drafts: revisable, refinable, worth sharing when they work well.
 
 ### Why this matters
 
@@ -95,9 +82,8 @@ Trust is calibrated to the risk of the task, the quality of the context provided
 ### Behaviours
 
 - Treat AI output as a draft, not truth.
-- Validate assumptions, logic, and edge cases — especially the ones the AI did not mention.
-- Make the level of trust an explicit decision, and match the verification effort to it.
-- "The AI wrote it" is never sufficient justification for skipping a review.
+- Match verification effort to risk. Make the level of trust an explicit decision.
+- Validate assumptions, logic, and edge cases — especially the ones the AI did not mention. "The AI wrote it" is never sufficient justification for skipping a review.
 
 ### Categories that always require human-led reasoning
 
@@ -132,8 +118,8 @@ This is how we stay safe, sane, and high-quality in a world where AI can be conf
 
 ## The one-line summary
 
-> AI is the next step in a long history of assistive tools — and our job is to use it to grow engineers, accelerate delivery, and protect quality through thinking first, owning what we ship, growing our skills, using AI intentionally, and verifying everything.
+> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
 ## Next
 
-Use the [toolkit](toolkit/index.md) to introduce and embed this in a team or organisation. It includes the implementation guide, a [practices](toolkit/practices.md) document aligned with Microsoft's Hyper-Velocity Engineering, talking points, a ready-to-present slide deck, and a developer FAQ.
+Use the [toolkit](toolkit/index.md) to introduce and embed this in a team or organisation.

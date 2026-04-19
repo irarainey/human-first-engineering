@@ -26,7 +26,7 @@ These are not a script. They are the underlying *ideas*, expressed in a few diff
 
 ## The one-line summary
 
-> AI is the next step in a long history of assistive tools — and we use it to grow engineers, accelerate delivery, and protect quality.
+> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
 ## Talking points for an introduction meeting
 
@@ -62,6 +62,7 @@ Use these as the spine of a 15–20 minute opener. Each is a single idea you can
 - We use AI to grow engineers, not replace them.
 - Every line of AI-generated code has a named human owner.
 - If you cannot explain it, you do not ship it.
+- Use AI with skill, not by reflex.
 - Trust AI deliberately. Verify in proportion to the risk.
 - Protect the struggle that produces judgement.
 
@@ -109,10 +110,10 @@ Short, memorable lines that travel well in conversation:
 
 - *Tools evolve. Craft endures.*
 - *AI amplifies engineers. It does not replace engineering.*
-- *Think first. Own the output. Verify everything.*
+- *Think first. Own what you ship. Verify everything.*
 - *If you cannot explain it, you do not ship it.*
 - *Velocity without understanding is debt.*
-- *We use AI to grow engineers, accelerate delivery, and protect quality.*
+- *Use AI with skill, not by reflex.*
 - *Previous tools automated the tedious. This one can accidentally automate the educational.*
 
 ## Things to avoid saying

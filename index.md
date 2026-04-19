@@ -7,13 +7,15 @@ nav_order: 1
 
 <p class="page-version"><strong>Version:</strong> 1.0.0</p>
 
-What happens to software engineering when we can generate code faster than we can understand it?
+> AI is the best thing to happen to software engineering productivity, and potentially the worst thing to happen to software engineers. Whether it becomes one or the other is entirely up to us.
 
-For most of our industry's history, the limiting factor has been *writing* software. Every generation of tooling — compilers, higher-level languages, IDEs, autocomplete, static analysis — has chipped away at that friction. AI is the next step on that same ladder.
+Engineering has always been about solving problems — modelling a domain, making sound architectural decisions, balancing constraints, and building systems that other humans can maintain. Code is the medium, not the message. And engineers have always had tooling to help: each generation has automated something that used to be manual.
 
-But it is a step change in degree. For the first time, the bottleneck is not producing code. It is *understanding* it. The cost of generating solutions has collapsed. The cost of validating, reasoning about, and trusting them has not.
+What is new with AI is a specific risk. Previous tools automated the tedious. These ones can accidentally automate the *educational* — removing the visible struggle that is the mechanism of learning.
 
-That tension does not just affect code quality. It affects people. If we are not deliberate, we risk a generation of engineers who can assemble systems without ever building the mental models behind them — and a pipeline from junior to senior to principal that quietly erodes.
+Left to chance, that produces a generation of engineers who can assemble systems without ever building the mental models behind them, and quietly erodes the pipeline from junior to senior to principal.
+
+That risk falls most heavily on the engineers entering the industry today. They are arriving into a job where the visible tasks juniors traditionally learned from — writing small units of code, fixing mechanical bugs, producing first drafts — are precisely the ones AI now does fastest. The opportunity to struggle, and to learn from that struggle, has to be protected deliberately. It will not happen by default.
 
 This site is a lightweight response to that risk: a manifesto, a framework, and a practical guide for putting both into practice.
 

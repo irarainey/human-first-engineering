@@ -30,7 +30,7 @@ Connect AI explicitly to the long lineage of assistive tools — autocomplete, I
 
 Present the manifesto as:
 
-- A statement of who we are.
+- A statement of what we believe.
 - A commitment to engineer growth.
 - A cultural anchor and shared philosophy.
 
@@ -116,7 +116,7 @@ Reinforce culture by highlighting:
 
 Repetition builds belief. Repeat the one-line summary often:
 
-> AI is the next step in a long history of assistive tools — and we use it to grow engineers, accelerate delivery, and protect quality.
+> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
 
 ## A final note
 
