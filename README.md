@@ -8,9 +8,11 @@ The site is published at [humanfirstengineering.dev](https://humanfirstengineeri
 
 ## The idea
 
-AI is the next step in a long history of assistive tools. Previous tools automated the tedious. This one can accidentally automate the *educational* — removing the visible struggle that is the mechanism of learning. Left to chance, that erodes the pipeline from junior to senior to principal.
+AI is the next step in a long history of assistive tools. Previous tools automated the tedious. This one can accidentally automate the *educational* — removing the visible struggle that is the mechanism of learning.
 
-Human-First Engineering is a deliberate response: a short statement of what we believe, a five-pillar framework for how we work, and a practical toolkit for embedding both in a team or organisation.
+The risk is not just lower-quality code. It is the quiet deskilling of engineers at every level, and the erosion of the pipeline from junior to senior to principal. That risk falls most heavily on the people entering the industry today: the visible tasks juniors traditionally learned from — small units of code, mechanical bugs, first drafts — are precisely the ones AI now does fastest. The opportunity to struggle, and to grow from that struggle, has to be protected deliberately. It will not happen by default.
+
+Human-First Engineering is a deliberate response: a short statement of what we believe, a five-pillar framework for how we work, and a practical toolkit for embedding both in a team or organisation. The goal is to use AI to grow engineers — not to quietly replace the conditions that produce them.
 
 ## Contents
 
