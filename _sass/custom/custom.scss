@@ -27,6 +27,13 @@
   display: block;
 }
 
+// On mobile the theme adds left padding to .site-title; zero it so it aligns flush.
+@media (max-width: 49.9375rem) {
+  .site-title {
+    padding-left: 0 !important;
+  }
+}
+
 .site-tagline {
   display: block;
   max-width: 16rem;
