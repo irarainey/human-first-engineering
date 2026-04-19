@@ -42,6 +42,14 @@
   margin-top: 0;
 }
 
+// Hide the sidebar footer ("This site uses Just the Docs...")
+.site-footer,
+.site-footer *,
+nav.site-nav + footer,
+.side-bar > footer {
+  display: none !important;
+}
+
 // Hide the top navigation bar entirely (was reserved for search + aux links)
 .main-header {
   display: none;
