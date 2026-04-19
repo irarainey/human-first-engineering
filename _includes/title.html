@@ -1,0 +1,8 @@
+{% if site.logo %}
+  <div class="site-logo"></div>
+{% else %}
+  <span class="site-title">{{ site.title }}</span>
+  {% if site.tagline %}
+    <span class="site-tagline">{{ site.tagline }}</span>
+  {% endif %}
+{% endif %}
