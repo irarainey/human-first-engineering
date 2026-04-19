@@ -39,7 +39,7 @@
 }
 
 .site-nav {
-  margin-top: 0;
+  margin-top: 0.75rem !important;
 }
 
 // Hide the sidebar footer ("This site uses Just the Docs...")
@@ -52,7 +52,7 @@ nav.site-nav + footer,
 
 // Hide the top navigation bar entirely (was reserved for search + aux links)
 .main-header {
-  display: none;
+  display: none !important;
 }
 
 // With the top header gone, let the page content start at the top
