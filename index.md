@@ -5,7 +5,7 @@ nav_order: 1
 
 # Human-First Engineering
 
-**Growing engineers in the age of AI.**
+<p class="page-version"><strong>Version:</strong> 1.0.0</p>
 
 What happens to software engineering when we can generate code faster than we can understand it?
 
@@ -23,10 +23,7 @@ This site is a lightweight response to that risk: a manifesto, a framework, and 
 - [The Framework](framework.md) — how we work in practice.
 - [The Toolkit](toolkit/index.md) — implementation guide, practices, talking points, slide deck, and developer FAQ for putting it all into practice.
 
-## Version
-
-This is **1.0.0** of the Human-First Engineering manifesto, framework, and toolkit. See the [changelog](CHANGELOG.md) for the full history.
-
-## License
-
-This work is licensed under [CC BY-NC-SA 4.0](LICENSE.md). Share freely. Build on it. Don't sell it.
+---
+<p class="page-meta">
+Licensed under <a href="LICENSE.md">CC BY-NC-SA 4.0</a>. Share freely. Build on it. Don't sell it.
+</p>

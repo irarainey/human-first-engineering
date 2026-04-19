@@ -1,4 +1,23 @@
-// Custom styles layered on top of Just the Docs
+// Small footer-style meta line for the home page (version + licence)
+.page-meta {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: $grey-dk-000;
+  opacity: 0.75;
+}
+
+// Small version label sitting just under the page title
+.page-version {
+  margin: -0.5rem 0 1.25rem;
+  font-size: 0.75rem;
+  font-family: $mono-font-family;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $grey-dk-000;
+  opacity: 0.6;
+}
 
 // Allow the site header (and the <a> inside it) to grow to fit the tagline.
 // Just the Docs sets fixed heights on both, often with !important, so we override hard.
