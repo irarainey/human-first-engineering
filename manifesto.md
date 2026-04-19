@@ -1,5 +1,6 @@
 ---
-title: The Manifesto
+title: Manifesto
+nav_order: 2
 ---
 
 # The Human-First Engineering Manifesto

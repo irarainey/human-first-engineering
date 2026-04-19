@@ -1,5 +1,7 @@
 ---
 title: Practices
+parent: Toolkit
+nav_order: 2
 ---
 
 # Practices — How We Use AI Tools

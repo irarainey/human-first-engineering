@@ -1,5 +1,6 @@
 ---
-title: The Framework
+title: Framework
+nav_order: 3
 ---
 
 # The Human-First Engineering Framework

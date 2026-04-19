@@ -1,5 +1,6 @@
 ---
-title: Human-First Engineering
+title: Home
+nav_order: 1
 ---
 
 # Human-First Engineering

@@ -1,5 +1,7 @@
 ---
 title: Talking Points
+parent: Toolkit
+nav_order: 3
 ---
 
 # Talking Points

@@ -1,5 +1,7 @@
 ---
 title: Developer FAQ
+parent: Toolkit
+nav_order: 4
 ---
 
 # Developer FAQ

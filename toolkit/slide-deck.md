@@ -1,5 +1,7 @@
 ---
 title: Slide Deck
+parent: Toolkit
+nav_order: 5
 ---
 
 # Slide Deck

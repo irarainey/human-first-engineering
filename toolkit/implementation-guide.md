@@ -1,5 +1,7 @@
 ---
 title: Implementation Guide
+parent: Toolkit
+nav_order: 1
 ---
 
 # Implementation Guide

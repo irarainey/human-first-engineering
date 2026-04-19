@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "jekyll-theme-cayman"
+gem "just-the-docs"
+gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
   gem "jekyll-relative-links"
