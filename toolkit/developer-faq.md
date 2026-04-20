@@ -14,7 +14,7 @@ If you have a question that is not here, raise it. The FAQ is meant to grow.
 
 ### Why does this framework exist?
 
-Because AI changes what the junior engineering job looks like. The visible tasks juniors used to learn from — small units of code, mechanical bugs, first drafts — are precisely the ones AI now does fastest. Left unchecked, that removes the reps that produce senior engineers, and over a few years the pipeline from junior to senior to principal quietly erodes. This framework exists to prevent that. Better AI-assisted engineering is how we get there; protecting the people who come next is why we bother.
+Because AI is powerful enough to change who does the engineering. Left unchecked, it quietly deskills engineers at every level: seniors drift into reviewing output rather than shaping solutions, and juniors skip the very experiences that build judgement. Over a few years, the pipeline from junior to senior to principal erodes — because the visible tasks juniors used to learn from are precisely the ones AI now does fastest. This framework exists to prevent that. Better AI-assisted engineering is how we get there; keeping the craft, and the people who practise it, intact is why we bother.
 
 ### Is this just another process I have to follow?
 
