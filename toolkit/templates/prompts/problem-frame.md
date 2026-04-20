@@ -1,3 +1,10 @@
+---
+title: Problem Frame Prompt
+parent: Templates & Prompts
+grand_parent: Toolkit
+nav_order: 3
+---
+
 # Problem Frame — Pillar 1 prompt
 
 **Use at the start of non-trivial work, before generating any code.**

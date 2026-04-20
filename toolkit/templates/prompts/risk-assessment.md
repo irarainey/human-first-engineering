@@ -1,3 +1,10 @@
+---
+title: Risk Assessment Prompt
+parent: Templates & Prompts
+grand_parent: Toolkit
+nav_order: 5
+---
+
 # Risk Assessment — Pillar 5 prompt
 
 **Use before trusting AI-generated code to production.** Categorises a change as low, medium, or high risk and recommends a verification level.

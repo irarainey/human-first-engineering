@@ -2,6 +2,7 @@
 title: Templates & Prompts
 parent: Toolkit
 nav_order: 7
+has_children: true
 ---
 
 # Templates & Prompts

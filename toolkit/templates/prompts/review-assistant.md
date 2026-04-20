@@ -1,3 +1,10 @@
+---
+title: Review Assistant Prompt
+parent: Templates & Prompts
+grand_parent: Toolkit
+nav_order: 4
+---
+
 # Review Assistant — Pillar 2 prompt
 
 **Use when reviewing AI-assisted code.** Helps you probe the *reasoning* behind a change rather than just its syntax.

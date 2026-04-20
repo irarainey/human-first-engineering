@@ -1,3 +1,10 @@
+---
+title: Copilot Instructions
+parent: Templates & Prompts
+grand_parent: Toolkit
+nav_order: 1
+---
+
 # Copilot Instructions
 
 <!--

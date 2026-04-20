@@ -1,3 +1,10 @@
+---
+title: Claude Instructions
+parent: Templates & Prompts
+grand_parent: Toolkit
+nav_order: 2
+---
+
 # Claude Instructions
 
 <!--
