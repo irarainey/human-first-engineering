@@ -37,7 +37,7 @@ AI is confident, not always correct. Blanket trust is negligence. Blanket distru
 
 ### 📈 We grow through AI, not around it
 
-AI should make us better engineers, faster — not let us coast behind it. We use it to reach harder problems and learn more deeply, not to avoid the discomfort of not knowing. This is a growth mindset applied to our craft: abilities are built through effort, and AI is a tool for growing them, not a reason to stop growing.
+AI should make us better engineers, faster — not let us coast behind it. A growth mindset is what turns the tool into mastery rather than avoidance.
 
 ### 🚦 We move fast without breaking clarity
 
