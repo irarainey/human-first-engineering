@@ -32,6 +32,10 @@ No. It applies to every engineer at every level. Juniors get the most explicit a
 
 Some will. Many will not. AI tooling is changing what good engineering looks like in the moment-to-moment work, and a framework gives the team a shared language for what to expect from each other. Without it, every team member quietly invents their own answer, and the results drift apart.
 
+### What does "growth mindset" have to do with this?
+
+A lot. A [growth mindset](https://www.microsoft.com/en-us/about/growth-mindset) — the belief that ability is built through effort, strategy, and feedback rather than fixed at birth — is the underlying disposition this framework depends on. The same AI tool produces opposite outcomes depending on the mindset using it. A growth-mindset engineer asks AI to challenge their thinking, reads its output until they understand it, and uses it to reach problems that were previously out of reach. A fixed-mindset engineer asks AI for the answer, ships it, and stops. Most of the behaviours in this framework — especially [Pillar 3](../framework.md#pillar-3--grow-through-ai-not-around-it) — are ways of making the growth-mindset choice the default.
+
 ## 🤖 About using AI day-to-day
 
 ### Am I allowed to use AI for everything?

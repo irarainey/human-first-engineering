@@ -47,7 +47,7 @@ Ownership is what builds judgement — the thing AI cannot learn for you.
 
 > AI should accelerate mastery, not bypass it.
 
-The intuition that makes a great senior engineer is accumulated through wrestling with problems that resist easy answers. Routing around that struggle at scale does not just deskill the engineers we have — it breaks the pipeline that produces the seniors and principals of tomorrow.
+The intuition that makes a great senior engineer is accumulated through wrestling with problems that resist easy answers — and this is where a [growth mindset](https://www.microsoft.com/en-us/about/growth-mindset) matters most. The same tool produces opposite outcomes depending on the mindset using it: used to reach harder problems and understand more deeply, AI accelerates mastery; used to avoid the discomfort of not knowing, it routes around the reps that produce seniors and principals.
 
 ### Behaviours
 
