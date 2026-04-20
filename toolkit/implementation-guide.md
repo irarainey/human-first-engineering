@@ -117,7 +117,7 @@ The framework only works if the tooling around it is in good shape. As a baselin
 - **Clear guidance** on what must never go into a prompt — secrets, credentials, regulated data.
 - **A named owner** for each of the above.
 
-These are small artefacts. They have an outsized effect on quality.
+These are small artifacts. They have an outsized effect on quality.
 
 ## 9️⃣ Review quarterly
 

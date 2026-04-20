@@ -62,7 +62,7 @@ Rule of thumb: if you cannot review the output critically, you are not the right
 
 These are patterns worth adopting team-wide. Each has a clear shape, a clear boundary, and a clear human-in-the-loop checkpoint.
 
-### Docs as first-class, testable artefacts
+### Docs as first-class, testable artifacts
 
 Treat documentation the way you treat code: written, reviewed, and *tested*.
 
@@ -180,9 +180,9 @@ These are the patterns that produce the "2x slower" outcome reported in the HVE 
 - **Skipping verification for "simple" changes.** Simple is where confident-but-wrong output hides best.
 - **Using AI to bypass the learning, rather than to accelerate it.** The framework's [Pillar 3](../framework.md#pillar-3--grow-skills-not-dependencies) exists precisely for this.
 
-## 📦 Team artefacts worth maintaining
+## 📦 Team artifacts worth maintaining
 
-A small number of shared artefacts give an outsized return. Every team running at HVE speed should have:
+A small number of shared artifacts give an outsized return. Every team running at HVE speed should have:
 
 - **An instruction / context file** per project — conventions, architectural context, and "how to work with this codebase".
 - **A prompt library** — the prompts that have proven to produce good results, with notes on what they are for.
@@ -190,14 +190,14 @@ A small number of shared artefacts give an outsized return. Every team running a
 - **A data boundary policy** — what must never go into a prompt (secrets, credentials, regulated data).
 - **A named owner** for each of the above.
 
-Keep them short. Review them regularly. Treat them as first-class engineering artefacts.
+Keep them short. Review them regularly. Treat them as first-class engineering artifacts.
 
 ## 🏁 Getting started
 
 Adapted from HVE's own four-step starter, with HFE's human-growth lens added:
 
 1. **Identify your team's highest-friction activities.** Where are you losing time to tedium, lookup, or repetition? Those are your first AI leverage points.
-2. **Create shared engineering standards that both humans and AI can follow.** Instruction files, prompt libraries, rules. Treat them as first-class artefacts.
+2. **Create shared engineering standards that both humans and AI can follow.** Instruction files, prompt libraries, rules. Treat them as first-class artifacts.
 3. **Encourage cross-functional pairing with AI assistants.** Not just engineers — TPMs, designers, security, data science.
 4. **Measure velocity, quality, *and* engineer growth.** Not just story points closed, but defect rates, incident frequency, review depth, and — the HFE addition — the growth of the engineers doing the work.
 

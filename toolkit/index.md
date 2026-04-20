@@ -31,4 +31,4 @@ A reasonable order for most teams:
 
 ## 🔧 A note on adaptation
 
-These materials are deliberately lightweight. Adapt them. Cut what does not fit your context. Add the examples that will land with your team. The goal is for the principles to be lived, not for the artefacts to be preserved.
+These materials are deliberately lightweight. Adapt them. Cut what does not fit your context. Add the examples that will land with your team. The goal is for the principles to be lived, not for the artifacts to be preserved.
