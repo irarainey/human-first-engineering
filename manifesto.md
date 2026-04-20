@@ -55,13 +55,13 @@ The engineers we fail to grow today are the senior engineers missing from the in
 
 These beliefs carry an obligation to the people most exposed to this shift.
 
-You are entering the industry at a uniquely challenging moment — and one of genuine opportunity. The tools available to you are extraordinary. They can also mask gaps in your understanding in ways that catch up with you later.
+Early-career engineers are entering the industry at a moment when the tools available to them are extraordinary — and capable of masking gaps in their understanding in ways that catch up later. The conditions that produce good engineers do not arrange themselves. They have to be maintained.
 
-In return for your commitment to genuine learning, you are owed:
+We commit to providing early-career engineers with:
 
 - Regular access to people who will explain the *why* behind the *what*.
 - Safe spaces to be wrong and to not know.
-- Honest feedback that helps you grow, not feedback that protects your confidence.
+- Honest feedback that helps them grow, not feedback that protects their confidence.
 - The recognition that struggle is not failure — it is the work.
 
 The senior engineers of five years from now are the junior engineers of today. Protecting that pipeline is the reason this framework exists.
