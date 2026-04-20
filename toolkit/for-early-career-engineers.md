@@ -81,5 +81,5 @@ Use AI fully. Use it deliberately. The engineers who will thrive in this decade 
 ## 🔗 See also
 
 - [The Manifesto](../manifesto.md#a-commitment-to-early-career-engineers) — the commitment to early-career engineers.
-- [The Framework — Pillar 3](../framework.md#pillar-3--grow-skills-not-dependencies) — grow skills, not dependencies.
+- [The Framework — Pillar 3](../framework.md#pillar-3--grow-through-ai-not-around-it) — grow through AI, not around it.
 - [Developer FAQ](developer-faq.md) — answers to the questions engineers actually ask.

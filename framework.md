@@ -43,7 +43,7 @@ You are responsible for every line of code that goes out under your name, regard
 
 Ownership is what builds judgement — the thing AI cannot learn for you.
 
-## 📈 Pillar 3 — Grow skills, not dependencies
+## 📈 Pillar 3 — Grow through AI, not around it
 
 > AI should accelerate mastery, not bypass it.
 
@@ -120,7 +120,7 @@ This is how we stay safe, sane, and high-quality in a world where AI can be conf
 
 ## ✨ The one-line summary
 
-> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
+> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
 
 ## ➡️ Next
 

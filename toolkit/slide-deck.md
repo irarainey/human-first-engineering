@@ -131,7 +131,7 @@ Five pillars. Light enough to remember. Concrete enough to use.
 
 1. Think first
 2. Own the output
-3. Grow skills, not dependencies
+3. Grow through AI, not around it
 4. Use AI intelligently
 5. Trust AI, but verify everything
 
@@ -159,7 +159,7 @@ A clear prompt is the by-product of clear thinking.
 
 ---
 
-## Pillar 3 — Grow skills, not dependencies
+## Pillar 3 — Grow through AI, not around it
 
 *AI should accelerate mastery, not bypass it.*
 
@@ -229,7 +229,7 @@ In small groups, answer:
 
 ## The one-line summary
 
-> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
+> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
 
 ---
 

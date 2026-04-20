@@ -35,9 +35,9 @@ Only humans can be accountable for quality, clarity, and safety. Every line of A
 
 AI is confident, not always correct. Blanket trust is negligence. Blanket distrust is waste. The discipline is in calibrating correctly.
 
-### 📈 We grow our skills, not our dependencies
+### 📈 We grow through AI, not around it
 
-AI is a power tool that accelerates mastery — when used deliberately. We use it to grow faster and reach further, not to avoid the discomfort of not knowing.
+AI should make us better engineers, faster — not let us coast behind it. We use it to reach harder problems and learn more deeply, not to avoid the discomfort of not knowing.
 
 ### 🚦 We move fast without breaking clarity
 

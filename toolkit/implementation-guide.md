@@ -72,9 +72,9 @@ Capture the answers. They become your team's first commitments.
 
 **The one-line version:**
 
-> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
+> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
 
-### Framings to avoid
+**Framings to avoid**
 
 - *"AI changes everything."* It changes a lot, but the framing produces fear and false novelty. Engineering principles are intact.
 - *"Just use AI for everything."* Encourages exactly the deskilling pattern we are trying to prevent.
@@ -143,7 +143,7 @@ Reinforce culture by highlighting:
 
 Repetition builds belief. Repeat the one-line summary often:
 
-> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
+> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
 
 ## 📝 A final note
 

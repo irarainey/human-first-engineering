@@ -34,7 +34,7 @@ The site is published at [humanfirstengineering.dev](https://humanfirstengineeri
 
 ## ✨ The one-line summary
 
-> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
+> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
 
 ## ⚖️ License
 
