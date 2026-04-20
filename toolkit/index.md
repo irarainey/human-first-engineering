@@ -18,6 +18,7 @@ The [manifesto](../manifesto.md) is what we believe. The [framework](../framewor
 - [Developer FAQ](developer-faq.md) — the questions engineers actually ask. Honest answers, not corporate ones.
 - [For Early-Career Engineers](for-early-career-engineers.md) — written *for* junior engineers, not about them. Practical habits for using AI to grow rather than stall.
 - [Relationship to HVE](relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
+- [Templates & Prompts](templates/index.md) — drop-in instruction files for GitHub Copilot and Claude, plus reusable prompts for framing problems, reviewing AI-assisted code, and assessing risk.
 
 ## 🗺️ How to use this toolkit
 
