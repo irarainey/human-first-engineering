@@ -31,7 +31,7 @@ This preserves the core engineering skill: thinking clearly about problems. A cl
 
 > AI assists. Humans are accountable.
 
-You are responsible for every line of code that goes out under your name, regardless of how it was generated. The standard is not new — it applied when frameworks scaffolded your boilerplate and when a Stack Overflow answer became your implementation. AI just raises the volume.
+Every line of code an engineer ships is theirs, regardless of how it was generated. The standard is not new — it applied when frameworks scaffolded boilerplate and when a Stack Overflow answer became an implementation. AI just raises the volume.
 
 ### Behaviours
 

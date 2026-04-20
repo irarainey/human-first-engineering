@@ -26,7 +26,7 @@ Frame the conversation around growth, not fear.
 
 Connect AI explicitly to the long lineage of assistive tools — autocomplete, IntelliSense, refactoring tools, static analysis, code generation. This grounds the change in familiarity and reduces anxiety. AI is a bigger step on the same ladder, not a different one.
 
-## 3️⃣ Introduce the manifesto first (identity)
+## 3️⃣ Introduce the manifesto first
 
 Present the manifesto as:
 
@@ -36,7 +36,7 @@ Present the manifesto as:
 
 This is the emotional, identity-driven part. Resist the urge to jump straight to behaviours.
 
-## 4️⃣ Introduce the framework second (behaviour)
+## 4️⃣ Introduce the framework second
 
 The framework is the *how*: five pillars, simple enough to remember, actionable enough to guide decisions. Emphasise that it is not a process to comply with — it is a way of working to internalise.
 
@@ -102,7 +102,7 @@ Do not add new ceremonies. Weave the framework into ones you already run.
 | Design reviews | *Did we think before we generated?* |
 | Code reviews | *Can the author explain every significant decision?* |
 | Onboarding | *Where is our instruction file? Where is our skill library?* |
-| Retrospectives | *Are we growing skills or growing dependencies?* |
+| Retrospectives | *Are we growing through AI, or just faster because of it?* |
 | Architecture discussions | *Did we use AI to explore options, or to decide for us?* |
 | Performance conversations | *Is this engineer growing in judgement, or just in output?* |
 | Incident reviews | *Did anyone ship something they did not fully understand?* |
@@ -147,4 +147,4 @@ Repetition builds belief. Repeat the one-line summary often:
 
 ## 📝 A final note
 
-This is not finished work. It is a starting position for an industry that is changing under our feet. Take what is useful, adapt the rest, and share back what you learn. The pipeline of engineers we are growing today is the senior engineering bench of the next decade — and it is on all of us to protect it.
+This is not finished work. It is a starting position for an industry that is changing under our feet. Take what is useful, adapt the rest, and share back what you learn. The engineers we grow today are the senior engineers of the next decade — and it is on all of us to protect that.
