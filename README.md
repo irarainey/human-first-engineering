@@ -2,11 +2,13 @@
 
 **Growing engineers in the age of AI.**
 
-AI is the next step in a long history of assistive tools. Previous tools automated the tedious. This one can accidentally automate the *educational* — removing the visible struggle that is the mechanism of learning.
+Software engineering has always been a human endeavour. The skill, the judgement, and the craft live with the people doing it — and tooling, for every previous generation, has supported that rather than replaced it. AI is powerful enough to change that equation.
 
-The risk is not just lower-quality code. It is the quiet deskilling of engineers at every level, and the erosion of the pipeline from junior to senior to principal. That risk falls most heavily on the people entering the industry today: the visible tasks juniors traditionally learned from — small units of code, mechanical bugs, first drafts — are precisely the ones AI now does fastest. The opportunity to struggle, and to grow from that struggle, has to be protected deliberately. It will not happen by default.
+Where previous tools automated the tedious work, new AI-powered tools can automate the parts engineers actually learn from — reading code carefully, working through a bug, drafting a solution and realising it is wrong. Those moments of friction are how engineers build the intuition they rely on later. Automate them at scale and you produce a generation of engineers who can assemble systems without ever building the mental models behind them, and you quietly erode the pipeline from junior to senior to principal.
 
-Human-First Engineering is a deliberate response: a short statement of what we believe, a five-pillar framework for how we work, and a practical toolkit for embedding both in a team or organisation. The goal is to use AI to grow engineers — not to quietly replace the conditions that produce them.
+That risk falls most heavily on the people entering the industry today: the visible tasks juniors traditionally learned from — small units of code, mechanical bugs, first drafts — are precisely the ones AI now does fastest. The opportunity to struggle, and to grow from that struggle, has to be protected deliberately. It will not happen by default.
+
+Human-First Engineering is a deliberate response: a short statement of what we believe, a five-pillar framework for how we work, and a practical toolkit for embedding both in a team or organisation. The goal is to define new ways of working with these tools that keep the skill and craft of software engineers intact, so we stay in control of the engineering and do not deskill a generation in the process.
 
 The site is published at [humanfirstengineering.dev](https://humanfirstengineering.dev). This repository contains the source.
 
