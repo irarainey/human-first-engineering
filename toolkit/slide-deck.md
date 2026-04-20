@@ -73,9 +73,9 @@ AI is a bigger step on the same ladder — not a different one.
 
 ## But the risk *is* new
 
-Previous tools automated the **tedious**.
+Previous tools automated the **tedious work**.
 
-This one can accidentally automate the **educational**.
+This one can automate the parts engineers actually **learn from** — reading code, working through a bug, drafting a solution and realising it is wrong.
 
 ---
 
@@ -119,7 +119,7 @@ We **own what we ship**.
 
 We **trust AI, but we verify everything**.
 
-We **grow our skills**, not our dependencies.
+We **grow through AI**, not around it.
 
 We **move fast without breaking clarity**.
 
@@ -212,7 +212,7 @@ You are owed:
 | Design reviews | *Did we think before we generated?* |
 | Code reviews | *Can the author explain every decision?* |
 | Onboarding | *Where is our instruction file?* |
-| Retros | *Are we growing skills or dependencies?* |
+| Retros | *Are we growing through AI, or just faster because of it?* |
 | Incidents | *Did anyone ship something they did not understand?* |
 
 ---
