@@ -78,7 +78,7 @@ If you are not getting these, that is a conversation to have — with your manag
 
 Use AI fully. Use it deliberately. The engineers who will thrive in this decade are the ones who used AI to grow faster, not to avoid growing.
 
-This is a [growth mindset](https://www.microsoft.com/en-us/about/growth-mindset) applied to your craft: the belief that your abilities are built through effort, good strategy, and learning from feedback — not fixed by where you start. AI is one of the most powerful tools you will ever have for growing those abilities, *if* you treat it that way. Use it to reach problems you could not yet solve alone; read and question what it produces until you can; ask *why* until the answer is in your head, not just on your screen. That is what separates engineers who grow through AI from engineers who quietly stall behind it.
+This is a [growth mindset](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve) applied to your craft: the belief that your abilities are built through effort, good strategy, and learning from feedback — not fixed by where you start. AI is one of the most powerful tools you will ever have for growing those abilities, *if* you treat it that way. Use it to reach problems you could not yet solve alone; read and question what it produces until you can; ask *why* until the answer is in your head, not just on your screen. That is what separates engineers who grow through AI from engineers who quietly stall behind it.
 
 ## 🔗 See also
 
