@@ -7,8 +7,6 @@ nav_order: 1
 
 <p class="page-version"><strong>Version:</strong> 1.0.0</p>
 
-> AI is the best thing to happen to software engineering productivity, and potentially the worst thing to happen to software engineers. Whether it becomes one or the other is entirely up to us.
-
 Engineering has always been about solving problems — modelling a domain, making sound architectural decisions, balancing constraints, and building systems that other humans can maintain. Code is the medium, not the message. And engineers have always had tooling to help: each generation has automated something that used to be manual.
 
 What is new with AI is a specific risk. Previous tools automated the tedious. These ones can accidentally automate the *educational* — removing the visible struggle that is the mechanism of learning.
