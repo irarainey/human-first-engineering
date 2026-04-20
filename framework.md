@@ -19,9 +19,9 @@ Understanding the problem is still the engineer's job. AI is most valuable *afte
 
 ### Behaviours
 
-- Frame the problem, constraints, and success criteria before prompting.
-- Sketch a design before generating code.
-- Use AI to explore alternatives, not to decide for you.
+- **Frame the problem before prompting.** State the constraints, the success criteria, and the approach you would take before asking AI for anything.
+- **Sketch a design before generating code.** Even a rough outline gives you something to compare AI's output against, which is where the learning lives.
+- **Use AI to explore alternatives, not to decide for you.** Ask it for options and trade-offs, then make the call yourself.
 
 ### Why this matters
 
@@ -35,9 +35,9 @@ Every line of code an engineer ships is theirs, regardless of how it was generat
 
 ### Behaviours
 
-- Every line of AI-generated code has a named human owner.
-- If you cannot explain it, you do not ship it.
-- Code reviews focus on reasoning, not syntax.
+- **Every line has a named human owner.** Regardless of how the code was generated, one person is accountable for it.
+- **If you cannot explain it, you do not ship it.** Understanding is the bar, not authorship.
+- **Review reasoning, not syntax.** Ask the author *why* each significant decision was made; if they cannot answer, the PR goes back.
 
 ### Why this matters
 
@@ -51,9 +51,9 @@ The intuition that makes a great senior engineer is accumulated through wrestlin
 
 ### Behaviours
 
-- **Read what the AI produces.** Trace through it. Understand *why* it works, not just *that* it works. If you cannot, read more carefully — or ask a different question — until you can.
-- **Debug with AI, not around it.** Use AI as a pairing partner: ask it to explain, hypothesise, and challenge your thinking. The skill to grow is the reasoning, not the typing.
-- **Protect junior learning opportunities.** Do not optimise the reasoning out of their work. They need reps in reading, tracing, and explaining — not just in producing output.
+- **Read what the AI produces.** Trace through it until you understand *why* it works, not just *that* it works — if you cannot, read more carefully or ask a different question until you can.
+- **Debug with AI, not around it.** Use it as a pairing partner that explains, hypothesises, and challenges your thinking — the skill to grow is the reasoning, not the typing.
+- **Protect junior learning opportunities.** Do not optimise the reasoning out of their work; they need reps in reading, tracing, and explaining, not just in producing output.
 
 ### Why this matters
 
@@ -67,9 +67,9 @@ Getting consistently good output requires deliberate setup and thoughtful use. T
 
 ### Behaviours
 
-- **Match the model to the task.** Small and fast for iteration and high-volume work; frontier models for complex reasoning and architecture; code-specialised for refactoring and tests; vision for diagrams and UI; agents only for genuinely multi-step workflows.
-- **Encode team context in instruction files.** Short, focused, versioned. Every project owns one. Share prompt patterns the way you share utility functions.
-- **Prompt with precision.** Vague prompts produce vague output. Provide relevant context, not all context. Treat prompts as drafts: revisable, refinable, worth sharing when they work well.
+- **Match the model to the task.** Small and fast for iteration; frontier models for complex reasoning; code-specialised for refactoring and tests; vision for diagrams; agents only for genuinely multi-step work.
+- **Encode team context in instruction files.** Keep them short, focused, and versioned; share prompt patterns the way you share utility functions.
+- **Prompt with precision.** Provide relevant context, not all context, and treat prompts as drafts worth refining and sharing when they work well.
 
 ### Why this matters
 
@@ -83,9 +83,9 @@ Trust is calibrated to the risk of the task, the quality of the context provided
 
 ### Behaviours
 
-- Treat AI output as a draft, not truth.
-- Match verification effort to risk. Make the level of trust an explicit decision.
-- Validate assumptions, logic, and edge cases — especially the ones the AI did not mention. "The AI wrote it" is never sufficient justification for skipping a review.
+- **Treat AI output as a draft, not truth.** Read it critically before you rely on it.
+- **Match verification effort to risk.** Low-risk, reversible work warrants lighter checks; high-risk work requires human reasoning to lead. Make the level of trust an explicit decision.
+- **Validate assumptions, logic, and edge cases.** Be especially sceptical of the ones AI did not mention — "the AI wrote it" is never sufficient justification for skipping a review.
 
 ### Categories that always require human-led reasoning
 
