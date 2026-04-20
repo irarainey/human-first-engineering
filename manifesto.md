@@ -7,7 +7,7 @@ nav_order: 2
 
 Writing code has never been the whole of engineering, and engineers have never worked without assistance. Compilers, IDEs, autocomplete, static analysis — each wave of tooling automated something that used to be manual. AI is the next step on that same path.
 
-The fundamental question AI-assisted development poses is not new: **what does it mean to be a great engineer when the tooling around you gets more powerful?** The answer has always been the same. An engineer's value moves further up the stack — toward understanding, judgement, and the kind of contextual reasoning that tools cannot replicate.
+The fundamental question AI-assisted development poses is not new: **what does it mean to be a great engineer when the tooling around us gets more powerful?** The answer has always been the same. An engineer's value moves further up the stack — toward understanding, judgement, and the kind of contextual reasoning that tools cannot replicate.
 
 ## 📜 What we believe
 
