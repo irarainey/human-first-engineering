@@ -1,7 +1,7 @@
 ---
 title: Relationship to HVE
 parent: Toolkit
-nav_order: 7
+nav_order: 6
 ---
 
 # Relationship to Hyper-Velocity Engineering

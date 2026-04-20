@@ -21,4 +21,4 @@ This site is a lightweight response to that risk: a manifesto, a framework, and 
 
 - [The Manifesto](manifesto.md) — what we believe, and why.
 - [The Framework](framework.md) — how we work in practice.
-- [The Toolkit](toolkit/index.md) — implementation guide, practices, talking points, slide deck, and developer FAQ for putting it all into practice.
+- [The Toolkit](toolkit/index.md) — implementation guide, practices, slide deck, and developer FAQ for putting it all into practice.

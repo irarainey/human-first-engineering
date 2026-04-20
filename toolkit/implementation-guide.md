@@ -54,6 +54,33 @@ A suggested 30–45 minute format:
 
 Capture the answers. They become your team's first commitments.
 
+### Pitches you can reuse
+
+**The 30-second version:**
+
+> AI is changing how software is built faster than any tool we have seen before. The biggest risk is not that it replaces engineers — it is that it quietly stops them from becoming senior ones. Human-First Engineering is a lightweight manifesto and framework that lets us go faster *and* keep growing engineers. Tools evolve. Craft endures.
+
+**The two-minute version:**
+
+> For decades, every new tool — autocomplete, IntelliSense, refactoring, static analysis — has made engineers faster. AI is the next step on that same ladder, but it is a much bigger step.
+>
+> For the first time, the bottleneck is not writing code. It is *understanding* it. We can ship faster than ever, and it has never been easier to ship things we do not fully understand.
+>
+> That is a problem for code quality, but it is a bigger problem for *people*. If we are not deliberate, junior engineers will skip the very experiences that build judgement. Senior engineers will drift into reviewing output rather than shaping solutions. The pipeline from junior to senior to principal will quietly erode.
+>
+> Human-First Engineering is our response. A short manifesto on what we believe, a five-pillar framework on how we work, and a practical toolkit for embedding both. The point is simple: we use AI to grow engineers, accelerate delivery, and protect quality — not to trade one off against the other.
+
+**The one-line version:**
+
+> Think first. Own what you ship. Grow skills, not dependencies. Use AI intelligently. Verify everything.
+
+### Framings to avoid
+
+- *"AI changes everything."* It changes a lot, but the framing produces fear and false novelty. Engineering principles are intact.
+- *"Just use AI for everything."* Encourages exactly the deskilling pattern we are trying to prevent.
+- *"AI will replace engineers."* It will not. But careless use will erode the engineers we have.
+- *"This is mandatory."* The framework works because it is internalised, not because it is enforced. Frame it as a way of working, not a process to comply with.
+
 ## 6️⃣ Empower principals and seniors as multipliers
 
 Senior engineers are where culture becomes durable. Charge them explicitly with:
