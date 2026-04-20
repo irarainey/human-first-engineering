@@ -9,11 +9,11 @@ nav_order: 1
 
 Engineering has always been about solving problems — modelling a domain, making sound architectural decisions, balancing constraints, and building systems that other humans can maintain. Code is the medium, not the message. And engineers have always had tooling to help: each generation has automated something that used to be manual.
 
-What is new with AI is a specific risk. Previous tools automated the tedious. These ones can accidentally automate the *educational* — removing the visible struggle that is the mechanism of learning.
+What is new with AI-assisted development is a specific risk: **deskilling**. Previous tools automated the tedious work. This one can automate the parts engineers actually learn from — reading code carefully, working through a bug, drafting a solution and realising it is wrong. The struggle was never the overhead. It was the mechanism of learning.
 
 Left to chance, that produces a generation of engineers who can assemble systems without ever building the mental models behind them, and quietly erodes the pipeline from junior to senior to principal.
 
-That risk falls most heavily on the engineers entering the industry today. They are arriving into a job where the visible tasks juniors traditionally learned from — writing small units of code, fixing mechanical bugs, producing first drafts — are precisely the ones AI now does fastest. The opportunity to struggle, and to learn from that struggle, has to be protected deliberately. It will not happen by default.
+And that risk is not evenly distributed. It falls most heavily on the engineers entering the industry today. They are arriving into a job where the visible tasks juniors traditionally learned from — writing small units of code, fixing mechanical bugs, producing first drafts — are precisely the ones AI now does fastest. The opportunity to struggle, and to learn from that struggle, has to be protected deliberately. It will not happen by default.
 
 This site is a lightweight response to that risk: a manifesto, a framework, and a practical guide for putting both into practice.
 
