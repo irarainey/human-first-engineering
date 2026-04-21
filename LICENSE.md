@@ -40,6 +40,8 @@ You may not apply legal terms or technological measures that legally restrict ot
 
 Read it. Share it. Adopt it. Translate it. Build on it. Adapt it for your team or organisation.
 
+Using this framework internally at a commercial company — whether that company builds free or paid products — is permitted, and in fact encouraged. The NonCommercial restriction is about selling the material itself, not about who adopts it.
+
 Do not sell it, package it into a commercial product, or use it as the basis of a paid service without explicit written permission from the original authors.
 
 If you build on it, share what you create under the same terms so that the wider community benefits too.
