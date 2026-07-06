@@ -33,7 +33,7 @@ Only humans can be accountable for quality, clarity, and safety. Every line of A
 
 ### 🔍 We trust AI, but we verify everything
 
-AI is confident, not always correct. Blanket trust is negligence. Blanket distrust is waste. The discipline is in calibrating correctly.
+AI is confident, not always correct. Blanket trust is negligence. Blanket distrust is waste. The skill is knowing how much to trust the output.
 
 ### 📈 We grow through AI, not around it
 
@@ -55,7 +55,7 @@ The engineers we fail to grow today are the senior engineers missing from the in
 
 These beliefs carry an obligation to the people most exposed to this shift.
 
-Early-career engineers are entering the industry at a moment when the tools available to them are extraordinary — and capable of masking gaps in their understanding in ways that catch up later. The conditions that produce good engineers do not arrange themselves. They have to be maintained.
+Early-career engineers are entering the industry at a moment when the tools available to them are extraordinary — and capable of masking gaps in their understanding in ways that catch up later. Good engineers don't happen by accident. The conditions that grow them have to be built and protected.
 
 We commit to providing early-career engineers with:
 

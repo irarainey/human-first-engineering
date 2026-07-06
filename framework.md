@@ -31,13 +31,14 @@ This preserves the core engineering skill: thinking clearly about problems. A cl
 
 > AI assists. Humans are accountable.
 
-Every line of code an engineer ships is theirs, regardless of how it was generated. The standard is not new — it applied when frameworks scaffolded boilerplate and when a Stack Overflow answer became an implementation. AI just raises the volume.
+Every change an engineer ships is theirs, regardless of how it was generated. The standard is not new — it applied when frameworks scaffolded boilerplate and when a Stack Overflow answer became an implementation. AI just raises the volume.
 
 ### Behaviours
 
-- **Every line has a named human owner.** Regardless of how the code was generated, one person is accountable for it.
-- **If you cannot explain it, you do not ship it.** Understanding is the bar, not authorship.
+- **Every change has a named human owner.** Regardless of how much of it was generated, one person is accountable for how it behaves.
+- **If you cannot explain it, you do not ship it.** Understanding is the bar, not authorship. Read every line you ship; for repetitive generated code, verify the pattern, boundaries, and edge cases; for non-trivial logic, understand every significant line before merge.
 - **Review reasoning, not syntax.** Ask the author *why* each significant decision was made; if they cannot answer, the PR goes back.
+- **Treat reviewing AI-generated work as its own skill.** Reading code you did not write and interrogating why it is shaped the way it is, is a distinct competency from writing it — one that AI makes more important, not less. Practise it deliberately.
 
 ### Why this matters
 
@@ -69,11 +70,12 @@ Getting consistently good output requires deliberate setup and thoughtful use. T
 
 - **Match the model to the task.** Small and fast for iteration; frontier models for complex reasoning; code-specialised for refactoring and tests; vision for diagrams; agents only for genuinely multi-step work.
 - **Encode team context in instruction files.** Keep them short, focused, and versioned; share prompt patterns the way you share utility functions.
+- **Treat context as a durable asset, not a per-prompt effort.** The knowledge that makes AI useful — architecture, conventions, decisions, constraints — belongs where it outlives the session that produced it, so the whole team and its tools reason from the same understanding.
 - **Prompt with precision.** Provide relevant context, not all context, and treat prompts as drafts worth refining and sharing when they work well.
 
 ### Why this matters
 
-This is the new literacy — the modern equivalent of learning your IDE.
+This is a new core skill: knowing when to lean on AI and when to verify it yourself — the modern equivalent of learning your IDE.
 
 ## 🔍 Pillar 5 — Trust AI, but verify everything
 
@@ -86,6 +88,20 @@ Trust is calibrated to the risk of the task, the quality of the context provided
 - **Treat AI output as a draft, not truth.** Read it critically before you rely on it.
 - **Match verification effort to risk.** Low-risk, reversible work warrants lighter checks; high-risk work requires human reasoning to lead. Make the level of trust an explicit decision.
 - **Validate assumptions, logic, and edge cases.** Be especially sceptical of the ones AI did not mention — "the AI wrote it" is never sufficient justification for skipping a review.
+
+### The human review ladder
+
+Trust is not all-or-nothing. As AI takes on more of the work, the human responsibility does not disappear — it moves up a level. Use this ladder to make the hand-off explicit: whatever the AI is doing, the human still owns the row next to it.
+
+| What AI is doing | What the human is still responsible for |
+| --- | --- |
+| Summarising or explaining | Verifying the facts and the framing against the source |
+| Suggesting designs or options | Making the architectural decision and owning the trade-offs |
+| Generating code | Understanding every significant line before it merges |
+| Reviewing a PR | Reviewing the *reasoning*, not just accepting the AI's verdict |
+| Running as an agent | Approving the scope, the checkpoints, and the final outcome |
+
+The more autonomy you grant the AI, the more deliberate the human checkpoint has to be — never less.
 
 ### Categories that always require human-led reasoning
 
@@ -114,7 +130,7 @@ This is how we stay safe, sane, and high-quality in a world where AI can be conf
 | Unsure how much to trust AI output | Assess the risk. Match verification effort to the stakes. |
 | Starting a new project | Check for an instruction file. If one does not exist, create it. |
 | Getting poor output | Interrogate the prompt before re-running. What was missing or ambiguous? |
-| Doing a repetitive AI-assisted task | Check the team skill library first. Build and share a pattern if one is missing. |
+| Doing a repetitive AI-assisted task | Check the team prompt library first. Build and share a pattern if one is missing. |
 | Choosing a model | Match capability to the task — complexity, volume, cost, and quality. |
 | AI costs creeping up | Treat it like any performance issue. Investigate, identify the waste, fix the pattern. |
 

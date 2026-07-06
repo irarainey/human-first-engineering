@@ -10,6 +10,16 @@ A practical, step-by-step plan for introducing and embedding the [manifesto](../
 
 This is not a process. It is a way of working. The goal is to make the principles visible, repeated, and lived — not laminated to a wall.
 
+## 🚦 Start here: minimum viable adoption
+
+The full rollout below is a menu, not a mandate. If your team is under pressure and wants to start this week, do just these:
+
+- **Non-negotiables** (the parts that are not optional): a named human owner for every change; human-led reasoning for security, compliance, and irreversible work; and protecting early-career learning.
+- **This week:** add one instruction file and one `CONTEXT.md` to your busiest repo, and adopt one review habit — ask the author *why*, not just *what*.
+- **Later, when it earns its place:** the intro session, shared prompt libraries, quarterly reviews, and the rituals below.
+
+Everything else in this guide is there to help; adopt it as it proves useful, not because it is listed.
+
 ## 1️⃣ Start with the *why*
 
 Open with the core truth:
@@ -101,20 +111,21 @@ Do not add new ceremonies. Weave the framework into ones you already run.
 | --- | --- |
 | Design reviews | *Did we think before we generated?* |
 | Code reviews | *Can the author explain every significant decision?* |
-| Onboarding | *Where is our instruction file? Where is our skill library?* |
+| Onboarding | *Where is our instruction file? Where is our `CONTEXT.md` and prompt library?* |
 | Retrospectives | *Are we growing through AI, or just faster because of it?* |
 | Architecture discussions | *Did we use AI to explore options, or to decide for us?* |
-| Performance conversations | *Is this engineer growing in judgement, or just in output?* |
+| Performance conversations | *What evidence shows this engineer's judgement is growing, not just their output?* |
 | Incident reviews | *Did anyone ship something they did not fully understand?* |
 
 ## 8️⃣ Invest in the tooling layer
 
-The framework only works if the tooling around it is in good shape. As a baseline, every team should have:
+The framework only works if the tooling around it is in good shape. As a baseline, every team should have a small, named set of artifacts — and it helps to keep the vocabulary straight:
 
-- **An instruction file** per project, kept short and current.
-- **A shared skill / prompt library** for recurring tasks.
-- **Clear guidance** on which models are approved and when to use each.
-- **Clear guidance** on what must never go into a prompt — secrets, credentials, regulated data.
+- **`CONTEXT.md`** per project — the small, always-on project memory (goals, state, constraints) that links out to the rest.
+- **An instruction file** per project — the standing AI behaviour and conventions, kept short and current.
+- **`ARCHITECTURE.md` and a decision log** (`DECISIONS.md` / ADRs) — loaded on demand, holding the *why* so it outlives the session.
+- **A prompt library** — reusable task prompts that have proven to work.
+- **Model and data guidance** — which models are approved and when, and what must never go into a prompt (secrets, credentials, regulated data).
 - **A named owner** for each of the above.
 
 These are small artifacts. They have an outsized effect on quality.

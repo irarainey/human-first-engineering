@@ -14,6 +14,7 @@ The [manifesto](../manifesto.md) is what we believe. The [framework](../framewor
 
 - [Implementation Guide](implementation-guide.md) — the rollout plan, ritual prompts, tooling baseline, reusable pitches, and quarterly review. Start here.
 - [Practices](practices.md) — concrete patterns for *how* engineers use AI tools day to day, aligned with Microsoft's Hyper-Velocity Engineering.
+- [Context Engineering](context-engineering.md) — how to preserve engineering understanding across long-running AI work, sessions, and tools, with example artefacts.
 - [Slide Deck](slide-deck.md) — a ready-to-present deck for a 30–45 minute team session. Markdown-based and compatible with [Marp](https://marp.app) or any reveal.js-style renderer.
 - [Developer FAQ](developer-faq.md) — the questions engineers actually ask. Honest answers, not corporate ones.
 - [For Early-Career Engineers](for-early-career-engineers.md) — written *for* junior engineers, not about them. Practical habits for using AI to grow rather than stall.

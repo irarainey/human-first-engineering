@@ -1,7 +1,7 @@
 ---
 title: Templates & Prompts
 parent: Toolkit
-nav_order: 7
+nav_order: 8
 has_children: true
 ---
 
@@ -17,6 +17,14 @@ Drop-in files that shape how AI assistants behave in your codebase. They encode 
 - **[CLAUDE.md](CLAUDE.md)** — for Claude Code and the Claude API. Place at the root of your repository.
 
 Both encode the same principles; use whichever matches your tooling, or both.
+
+## 🧠 Context artefacts
+
+Durable knowledge files that preserve engineering understanding across sessions, tools, and people — without bloating the context window. Keep `CONTEXT.md` small and always-on; it links to the others, which are read only when a task needs them. They operationalise [Context Engineering](../context-engineering.md) and Pillar 4's *"treat context as a durable asset"* behaviour.
+
+- **[CONTEXT.md](context.md)** — the small, always-on project memory: goals, state, constraints, and links to the rest. Place at the root of your repository.
+- **[ARCHITECTURE.md](architecture.md)** — the shape of the system: structure, boundaries, and the reasoning behind them.
+- **[DECISIONS.md](decisions.md)** — significant decisions, the *why*, and the rejected alternatives; can be a one-line index linking to full ADRs.
 
 ## 💬 Prompts
 

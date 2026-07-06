@@ -1,7 +1,7 @@
 ---
 title: For Early-Career Engineers
 parent: Toolkit
-nav_order: 5
+nav_order: 6
 ---
 
 # For Early-Career Engineers
@@ -38,6 +38,21 @@ When something breaks, it is tempting to paste the error into a chat and apply w
 
 Behind every *what* is a *why*. Why this pattern? Why this library? Why this architecture? Why this trade-off? The engineers who become seniors are the ones who kept asking why long after it felt awkward to ask. AI is patient with that question. Use it.
 
+### Build the skill of reviewing AI's work
+
+Reading and interrogating code you did not write is one of the most valuable skills you can build right now, and it is not the same skill as writing code. When AI hands you a solution, treat reviewing it as the real work: ask why it is shaped this way, hunt for the edge cases it skipped, and be most suspicious when it looks most convincing. The engineer who catches the subtle mistake understood the system better than the one who generated it.
+
+A few habits that build this skill fast:
+
+- **Predict, then compare.** Before you read the AI's solution, decide what a correct one should look like. Learn from the gaps.
+- **Reconstruct the reasoning yourself** rather than trusting the AI's explanation — then check whether the two match.
+- **Keep a checklist of what AI misses** — error handling, edge cases, null/empty inputs, security, existing patterns it ignored — and run it every time.
+- **Turn suspicions into tests.** If you think an edge case is missing, write the failing test instead of guessing.
+- **Keep a note of the mistakes you catch.** The patterns repeat, and your list becomes your personal review checklist.
+- **Ask the AI to explain small, unfamiliar sections** back to you — one function or line at a time — then confirm the explanation against the code yourself. It is a great way to learn fast, but the explanation is a starting point, not proof it is correct.
+
+See [Reviewing AI-generated work is its own skill](practices.md#reviewing-ai-generated-work-is-its-own-skill) in the practices guide for more.
+
 ## ⚠️ What to watch out for
 
 ### Surface fluency without comprehension
@@ -73,6 +88,7 @@ If you are not getting these, that is a conversation to have — with your manag
 - Read what AI produces until you can explain it.
 - Use AI to reason with, not for.
 - Debug with AI, not around it.
+- Reviewing AI's work is a skill — practise it deliberately.
 - Ask *why* relentlessly.
 - Do not let fluency fool you — comprehension is the skill.
 
