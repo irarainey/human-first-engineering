@@ -20,7 +20,7 @@ Understanding comes first. AI accelerates execution; it does not replace the rea
 
 ### 🎯 We use AI with skill, not by reflex
 
-Using AI well is a craft of its own. Model choice, context, and prompting all shape the result. Chucking a vague prompt into a chat box is not engineering.
+Using AI well is a craft of its own. Model choice, context, and prompting all shape the result. Chucking a vague prompt into a chat box is not engineering. And the skill is not only in the prompt: a context window is finite and forgets, so preserving the understanding behind the work — as sessions end and conversations compact — matters as much as phrasing the request.
 
 ### 🪪 We own what we ship
 

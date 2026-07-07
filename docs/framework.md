@@ -61,16 +61,19 @@ This ensures we don't lose the foundational reps that turn juniors into seniors.
 
 Getting consistently good output requires deliberate setup and thoughtful use. This is a learnable, teachable skill — and mastering it is part of the modern craft.
 
+Prompting is only part of it. Just as important is the context the AI works from — and keeping that context alive as sessions end and long conversations are compacted away.
+
 ### Behaviours
 
 - **Match the model to the task.** Small and fast for iteration; frontier models for complex reasoning; code-specialised for refactoring and tests; vision for diagrams; agents only for genuinely multi-step work.
 - **Encode team context in instruction files.** Keep them short, focused, and versioned; share prompt patterns the way you share utility functions.
 - **Treat context as a durable asset, not a per-prompt effort.** The knowledge that makes AI useful — architecture, conventions, decisions, constraints — belongs where it outlives the session that produced it, so the whole team and its tools reason from the same understanding.
+- **Preserve the reasoning that sessions lose.** A context window is finite. Over a long effort it is repeatedly compacted, and the *why* behind a decision is summarised away while the code remains. Capture what must survive — decisions, constraints, rejected alternatives — where it outlives any single session. This is context engineering; see the [Context Engineering](toolkit/context-engineering.md) guide.
 - **Prompt with precision.** Provide relevant context, not all context, and treat prompts as drafts worth refining and sharing when they work well.
 
 ### Why this matters
 
-This is a new core skill: knowing when to lean on AI and when to verify it yourself — the modern equivalent of learning your IDE.
+This is a new core skill, and it has two halves. One is knowing when to lean on AI and when to verify it yourself — the modern equivalent of learning your IDE. The other is context engineering: crafting a good prompt is not enough if the knowledge behind it is thin or lost, so keeping shared understanding alive over time — for the next engineer and the next session — matters as much as any single request.
 
 ## 🔍 Pillar 5 — Trust AI, but verify everything
 

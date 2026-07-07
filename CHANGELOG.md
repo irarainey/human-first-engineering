@@ -7,6 +7,9 @@ Evolves the framework and toolkit to reflect an AI-native team, without changing
 **Context as a first-class engineering asset**
 
 - Added a Pillar 4 behaviour: treat context as a durable asset, not a per-prompt effort.
+- Strengthened Pillar 4 to make context engineering an explicit, co-equal half of "using AI intelligently": a new intro line and behaviour ("Preserve the reasoning that sessions lose") name the finite-context-window and compaction problem directly, the "Why this matters" now covers context durability as well as prompting, and the pillar links to the Context Engineering guide.
+- Added a line to the manifesto belief "We use AI with skill, not by reflex": preserving understanding as sessions end and conversations compact matters as much as phrasing the prompt.
+- Added a "The context window is finite" opening to the Context Engineering page — a plain but technical explanation of finite context windows, context as "just text", and lossy compaction — as the mechanism behind context loss.
 - Added a "Context is a first-class engineering asset" section to the practices guide, framing context as engineering knowledge management (not prompt engineering).
 - Added a dedicated **Context Engineering** toolkit page covering context loss in long-running AI work: a practical definition, preservation patterns, a lightweight file format, progressive disclosure (a small always-on core that references deeper docs loaded on demand), importance levels that double as load levels, and context-compression practices.
 - Added example artefact templates: `CONTEXT.md` (a small always-on index), `ARCHITECTURE.md`, and `DECISIONS.md` (with a one-line index linking to full ADRs).

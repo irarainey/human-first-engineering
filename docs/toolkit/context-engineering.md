@@ -2,7 +2,11 @@
 
 The [practices guide](practices.md#context-is-a-first-class-engineering-asset) introduces context as a first-class engineering asset. This page goes deeper, because a specific problem is emerging in AI-native teams that deserves its own treatment: **engineering understanding is being lost over time.**
 
-AI now participates in delivery over long-running efforts, but context windows are finite. Conversations get compacted, details get summarised away, and the reasoning behind a decision quietly disappears. Engineers report the symptoms constantly: AI losing track of earlier decisions, re-explaining the same project goals, inconsistent approaches because the original rationale was gone, and architectural knowledge that exists only in a chat that has since scrolled away.
+## 🪟 The context window is finite
+
+AI tools are clever, but not magic. A model works over a finite *context window* — essentially just text, of a fixed size. Everything it needs to understand your problem has to fit inside it. Windows are larger than they used to be, but none are infinite: in a long session the limit is reached and the context is quietly compacted to keep fitting. That compaction is lossy, and what goes first is the expensive part — *why* a decision was made, what was rejected, the constraint the code does not show.
+
+That is the mechanism behind the symptoms engineers report constantly: AI losing track of earlier decisions, re-explaining the same project goals, inconsistent approaches because the original rationale was gone, and architectural knowledge that exists only in a chat that has since scrolled away.
 
 Human-First Engineering treats this as an engineering problem, not an AI problem. More model memory will not fix it — because the real question is not *"how do we stop the model forgetting?"* It is *"what engineering knowledge deserves to survive, and how do we deliberately preserve it — for the next engineer as much as the next agent?"*
 
@@ -24,7 +28,7 @@ Prompt engineering optimises a moment. Context engineering compounds over the li
 
 ### Why long-running AI workflows make this urgent
 
-A short conversation holds its own context. A months-long, multi-session, multi-tool, multi-agent effort does not. Every compaction is a small act of forgetting, and the information most likely to be summarised away is exactly the expensive kind: *why* a decision was made, what was rejected and why, the constraint that is not obvious from the code. Output survives in the repository. Reasoning, unless captured deliberately, does not.
+A short conversation holds its own context. A months-long, multi-session, multi-tool, multi-agent effort does not — and the more tools and agents involved, the more places that understanding can slip through. Output survives in the repository; the reasoning behind it, unless captured deliberately, does not.
 
 ### Why it is an organisational problem, not an AI one
 
