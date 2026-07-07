@@ -149,6 +149,7 @@ A clear prompt is the by-product of clear thinking.
 
 - Every change shipped has a named human owner.
 - Code reviews focus on reasoning, not syntax.
+- Reviewing AI-generated work is its own skill — practise it deliberately.
 - **If you cannot explain it, you do not ship it.**
 
 ---
@@ -169,6 +170,8 @@ A clear prompt is the by-product of clear thinking.
 
 - **Match the model to the task** — small, frontier, code-specialised, vision, or agent.
 - **Encode team context in instruction files** and share prompt patterns like utility functions.
+- **Treat context as a durable asset** — architecture, decisions, and constraints belong where they outlive the session.
+- **Preserve the reasoning sessions lose** — capture the *why* before compaction destroys it. This is context engineering.
 - **Prompt with precision** — relevant context, not all context.
 
 ---
@@ -185,6 +188,22 @@ Always human-led:
 - Core architectural decisions
 
 *"The AI wrote it"* is never sufficient justification.
+
+---
+
+## The human review ladder
+
+*As AI does more, the human responsibility moves up — never disappears.*
+
+| What AI is doing | What the human still owns |
+| --- | --- |
+| Summarising or explaining | Verifying facts and framing against the source |
+| Suggesting designs | Making the decision and owning the trade-offs |
+| Generating code | Understanding every significant line before merge |
+| Reviewing a PR | Reviewing the *reasoning*, not accepting the verdict |
+| Running as an agent | Approving scope, checkpoints, and outcome |
+
+The more autonomy you grant, the more deliberate the human checkpoint.
 
 ---
 
