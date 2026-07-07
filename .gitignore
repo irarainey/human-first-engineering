@@ -1,8 +1,6 @@
-_site/
-.jekyll-cache/
-.jekyll-metadata
-.bundle/
-vendor/
-Gemfile.lock
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+*.log
 .DS_Store
 drafts/

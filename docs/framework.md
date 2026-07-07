@@ -1,0 +1,138 @@
+# The Human-First Engineering Framework
+
+The [manifesto](manifesto.md) is what we believe. The framework is how we work.
+
+It is built on five pillars. Each is a small set of behaviours, not a process. The aim is light enough to remember, concrete enough to guide real decisions.
+
+Every pillar is designed to do two things at once: produce better engineering today, and preserve the conditions that grow engineers tomorrow. That second purpose is why this framework exists. Without it, the first is just another AI-productivity checklist.
+
+## 🧠 Pillar 1 — Think first
+
+> AI accelerates execution, not understanding.
+
+Understanding the problem is still the engineer's job. AI is most valuable *after* you know what you are trying to do.
+
+### Behaviours
+
+- **Frame the problem before prompting.** State the constraints, the success criteria, and the approach you would take before asking AI for anything.
+- **Sketch a design before generating code.** Even a rough outline gives you something to compare AI's output against, which is where the learning lives.
+- **Use AI to explore alternatives, not to decide for you.** Ask it for options and trade-offs, then make the call yourself.
+
+### Why this matters
+
+This preserves the core engineering skill: thinking clearly about problems. A clear prompt is the by-product of clear thinking, not a substitute for it.
+
+## 🪪 Pillar 2 — Own the output
+
+> AI assists. Humans are accountable.
+
+Every change an engineer ships is theirs, regardless of how it was generated. The standard is not new — it applied when frameworks scaffolded boilerplate and when a Stack Overflow answer became an implementation. AI just raises the volume.
+
+### Behaviours
+
+- **Every change has a named human owner.** Regardless of how much of it was generated, one person is accountable for how it behaves.
+- **If you cannot explain it, you do not ship it.** Understanding is the bar, not authorship. Read every line you ship; for repetitive generated code, verify the pattern, boundaries, and edge cases; for non-trivial logic, understand every significant line before merge.
+- **Review reasoning, not syntax.** Ask the author *why* each significant decision was made; if they cannot answer, the PR goes back.
+- **Treat reviewing AI-generated work as its own skill.** Reading code you did not write and interrogating why it is shaped the way it is, is a distinct competency from writing it — one that AI makes more important, not less. Practise it deliberately.
+
+### Why this matters
+
+Ownership is what builds judgement — the thing AI cannot learn for you.
+
+## 📈 Pillar 3 — Grow through AI, not around it
+
+> AI should accelerate mastery, not bypass it.
+
+The intuition that makes a great senior engineer is accumulated through wrestling with problems that resist easy answers — and this is where a [growth mindset](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve) matters most. The same tool produces opposite outcomes depending on the mindset using it: used to reach harder problems and understand more deeply, AI accelerates mastery; used to avoid the discomfort of not knowing, it routes around the reps that produce seniors and principals.
+
+### Behaviours
+
+- **Read what the AI produces.** Trace through it until you understand *why* it works, not just *that* it works — if you cannot, read more carefully or ask a different question until you can.
+- **Debug with AI, not around it.** Use it as a pairing partner that explains, hypothesises, and challenges your thinking — the skill to grow is the reasoning, not the typing.
+- **Protect junior learning opportunities.** Do not optimise the reasoning out of their work; they need reps in reading, tracing, and explaining, not just in producing output.
+
+### Why this matters
+
+This ensures we don't lose the foundational reps that turn juniors into seniors.
+
+## 🎯 Pillar 4 — Use AI intelligently
+
+> Using AI well is a skill. Using it carelessly is not the same thing.
+
+Getting consistently good output requires deliberate setup and thoughtful use. This is a learnable, teachable skill — and mastering it is part of the modern craft.
+
+### Behaviours
+
+- **Match the model to the task.** Small and fast for iteration; frontier models for complex reasoning; code-specialised for refactoring and tests; vision for diagrams; agents only for genuinely multi-step work.
+- **Encode team context in instruction files.** Keep them short, focused, and versioned; share prompt patterns the way you share utility functions.
+- **Treat context as a durable asset, not a per-prompt effort.** The knowledge that makes AI useful — architecture, conventions, decisions, constraints — belongs where it outlives the session that produced it, so the whole team and its tools reason from the same understanding.
+- **Prompt with precision.** Provide relevant context, not all context, and treat prompts as drafts worth refining and sharing when they work well.
+
+### Why this matters
+
+This is a new core skill: knowing when to lean on AI and when to verify it yourself — the modern equivalent of learning your IDE.
+
+## 🔍 Pillar 5 — Trust AI, but verify everything
+
+> AI is powerful, but not infallible.
+
+Trust is calibrated to the risk of the task, the quality of the context provided, and your ability to verify the output. Low-risk, reversible, well-understood work warrants lighter verification. High-risk work requires human reasoning to lead, with AI in support — never the reverse.
+
+### Behaviours
+
+- **Treat AI output as a draft, not truth.** Read it critically before you rely on it.
+- **Match verification effort to risk.** Low-risk, reversible work warrants lighter checks; high-risk work requires human reasoning to lead. Make the level of trust an explicit decision.
+- **Validate assumptions, logic, and edge cases.** Be especially sceptical of the ones AI did not mention — "the AI wrote it" is never sufficient justification for skipping a review.
+
+### The human review ladder
+
+Trust is not all-or-nothing. As AI takes on more of the work, the human responsibility does not disappear — it moves up a level. Use this ladder to make the hand-off explicit: whatever the AI is doing, the human still owns the row next to it.
+
+| What AI is doing | What the human is still responsible for |
+| --- | --- |
+| Summarising or explaining | Verifying the facts and the framing against the source |
+| Suggesting designs or options | Making the architectural decision and owning the trade-offs |
+| Generating code | Understanding every significant line before it merges |
+| Reviewing a PR | Reviewing the *reasoning*, not just accepting the AI's verdict |
+| Running as an agent | Approving the scope, the checkpoints, and the final outcome |
+
+The more autonomy you grant the AI, the more deliberate the human checkpoint has to be — never less.
+
+### Categories that always require human-led reasoning
+
+- Security-sensitive code — authentication, authorisation, encryption, input validation.
+- Compliance, privacy, or regulatory logic.
+- Data deletion, migrations, or any irreversible operation.
+- Core architectural decisions with long-term structural consequences.
+- Concurrency, auth flows, complex SQL, infrastructure changes, regex on untrusted input — anything stateful or easy to get subtly wrong.
+
+Never share secrets, credentials, or sensitive customer data in prompts. Use approved tools only.
+
+### Why this matters
+
+This is how we stay safe, sane, and high-quality in a world where AI can be confidently wrong.
+
+## 📋 The framework in practice
+
+| Situation | Expected behaviour |
+| --- | --- |
+| Using AI to write code | Form your own view of the shape of the solution first. Then generate, read critically, and explain every significant decision. |
+| Reviewing AI-assisted code | Ask the author to explain, not just demonstrate. If they cannot, send it back. |
+| Stuck on a problem | Think about the shape of the problem first. Pair with a human or AI to reason through it. Do not skip straight to a generated answer. |
+| A junior is struggling | Treat it as an opportunity. Ask questions; do not just give answers. |
+| Something ships that nobody understands | Team failure, not individual. Treat it as a learning event. |
+| Security, compliance, or irreversible operations | Human reasoning leads. AI supports. No exceptions. |
+| Unsure how much to trust AI output | Assess the risk. Match verification effort to the stakes. |
+| Starting a new project | Check for an instruction file. If one does not exist, create it. |
+| Getting poor output | Interrogate the prompt before re-running. What was missing or ambiguous? |
+| Doing a repetitive AI-assisted task | Check the team prompt library first. Build and share a pattern if one is missing. |
+| Choosing a model | Match capability to the task — complexity, volume, cost, and quality. |
+| AI costs creeping up | Treat it like any performance issue. Investigate, identify the waste, fix the pattern. |
+
+## ✨ The one-line summary
+
+> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
+
+## ➡️ Next
+
+Use the [toolkit](toolkit/index.md) to introduce and embed this in a team or organisation.
