@@ -30,8 +30,6 @@ paginate: true
 
 Growing engineers in the age of AI
 
-*Tools evolve. Craft endures.*
-
 ---
 
 ## What happens to software engineering
@@ -253,6 +251,4 @@ Read the manifesto, framework, and toolkit:
 - [Manifesto](../manifesto.md)
 - [Framework](../framework.md)
 - [Toolkit](index.md)
-
-*Tools evolve. Craft endures.*
 ```

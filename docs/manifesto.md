@@ -12,7 +12,7 @@ Every generation produces great engineers. AI must not be the first that quietly
 
 ### ⚒️ We remember that writing code has never been the whole job
 
-Engineering is design, reasoning, debugging, architecture, and judgement — not typing. The tools change. The craft endures.
+Engineering is design, reasoning, debugging, architecture, and judgement — not typing.
 
 ### 🧠 We think before we generate
 

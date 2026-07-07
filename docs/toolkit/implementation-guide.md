@@ -62,7 +62,7 @@ Capture the answers. They become your team's first commitments.
 
 **The 30-second version:**
 
-> AI is changing how software is built faster than any tool we have seen before. The biggest risk is not that it replaces engineers — it is that it quietly stops them from becoming senior ones. Human-First Engineering is a lightweight manifesto and framework that lets us go faster *and* keep growing engineers. Tools evolve. Craft endures.
+> AI is changing how software is built faster than any tool we have seen before. The biggest risk is not that it replaces engineers — it is that it quietly stops them from becoming senior ones. Human-First Engineering is a lightweight manifesto and framework that lets us go faster *and* keep growing engineers.
 
 **The two-minute version:**
 
