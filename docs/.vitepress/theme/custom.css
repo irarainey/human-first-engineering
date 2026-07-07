@@ -1,0 +1,117 @@
+/*
+ * Human-First Engineering theme.
+ *
+ * Mirrors the identity of the original site: IBM Plex Sans / IBM Plex Mono on a
+ * dark, near-black surface, with a blue accent drawn from the site mark
+ * (a #a0b9d1 → #0849e2 gradient). The default light/dark toggle is preserved.
+ */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --vp-font-family-base: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --vp-font-family-mono: 'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas,
+    'Liberation Mono', monospace;
+
+  /* Blue accent from the site mark. */
+  --vp-c-brand-1: #0849e2;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #3b82f6;
+  --vp-c-brand-soft: rgba(8, 73, 226, 0.14);
+
+  --vp-c-brand-hover: var(--vp-c-brand-2);
+  --vp-c-brand-light: var(--vp-c-brand-2);
+  --vp-c-brand-lighter: var(--vp-c-brand-3);
+  --vp-c-brand-dark: #0641c8;
+  --vp-c-brand-darker: #06369f;
+
+  /* Home hero brand text — solid colour (no gradient fade). */
+  --vp-home-hero-name-color: #60a5fa;
+  --vp-home-hero-name-background: none;
+  --vp-home-hero-image-background-image: linear-gradient(
+    120deg,
+    rgba(37, 99, 235, 0.35),
+    rgba(8, 73, 226, 0.4)
+  );
+  --vp-home-hero-image-filter: blur(40px);
+
+  /* Solid brand buttons. */
+  --vp-button-brand-bg: #0849e2;
+  --vp-button-brand-hover-bg: #2563eb;
+  --vp-button-brand-active-bg: #0641c8;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-active-border: transparent;
+}
+
+.dark {
+  /* Near-black shell (zinc-950) framing a slightly lighter reading surface. */
+  --vp-c-bg: #18181b;
+  --vp-c-bg-alt: #09090b;
+  --vp-c-bg-soft: #27272a;
+  --vp-c-bg-elv: #27272a;
+  --vp-c-gutter: #09090b;
+  --vp-sidebar-bg-color: #18181b;
+
+  --vp-c-border: #3f3f46;
+  --vp-c-divider: #27272a;
+
+  --vp-c-text-1: #f4f4f5;
+  --vp-c-text-2: #e4e4e7;
+  --vp-c-text-3: #a1a1aa;
+
+  /* Brighter blue for links so they stay legible on the dark surface. */
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.16);
+  --vp-c-brand-dark: #3b82f6;
+  --vp-c-brand-darker: #2563eb;
+
+  --vp-home-hero-name-color: #93c5fd;
+  --vp-home-hero-name-background: none;
+
+  /* Keep the dark-theme glow softer than the darkened light-theme one. */
+  --vp-home-hero-image-background-image: linear-gradient(
+    120deg,
+    rgba(96, 165, 250, 0.18),
+    rgba(8, 73, 226, 0.18)
+  );
+}
+
+/*
+ * Show the site footer (licence + source link) on documentation pages too.
+ * The default theme hides the footer on any page with a sidebar; re-enable it
+ * so the licence and version notice appear everywhere.
+ */
+.VPFooter.has-sidebar {
+  display: block !important;
+}
+
+/*
+ * Keep the hero title "Human-First Engineering" on a single line.
+ *
+ * The name uses a gradient clipped to the text, so if the text overflows its
+ * box the overflowing letters lose their fill and vanish. Sizing the span to
+ * its content (inline-block + max-content) lets the gradient cover the whole
+ * title, and the responsive clamp keeps it on one line without overflowing
+ * narrow screens.
+ */
+.VPHero .name {
+  display: inline-block;
+  width: max-content;
+  max-width: 100%;
+  white-space: nowrap;
+  font-size: clamp(1.9rem, 7.5vw, 3.5rem);
+}
+
+/*
+ * Nudge the hero logo further to the right on desktop, where it sits beside
+ * the text. Scoped to the ≥960px row layout so the stacked mobile hero is
+ * unaffected.
+ */
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    transform: translateX(3rem);
+  }
+}

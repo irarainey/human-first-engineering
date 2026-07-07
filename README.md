@@ -16,28 +16,40 @@ The site is published at [humanfirstengineering.dev](https://humanfirstengineeri
 
 ### 📜 Core documents
 
-- [The Manifesto](manifesto.md) — what we believe, and why.
-- [The Framework](framework.md) — the five pillars and the behaviours that bring them to life.
+- [The Manifesto](docs/manifesto.md) — what we believe, and why.
+- [The Framework](docs/framework.md) — the five pillars and the behaviours that bring them to life.
 
 ### 🧰 Toolkit
 
-- [Toolkit overview](toolkit/index.md) — entry point and suggested reading order.
-- [Implementation Guide](toolkit/implementation-guide.md) — step-by-step plan for introducing and embedding the framework in a team.
-- [Practices](toolkit/practices.md) — concrete day-to-day patterns for using AI tools well, aligned with Microsoft's Hyper-Velocity Engineering.
-- [Slide Deck](toolkit/slide-deck.md) — a ready-to-present Markdown deck for a 30–45 minute team session.
-- [Developer FAQ](toolkit/developer-faq.md) — the questions engineers actually ask.
-- [For Early-Career Engineers](toolkit/for-early-career-engineers.md) — practical habits for junior engineers, written for them directly.
-- [Relationship to HVE](toolkit/relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
+- [Toolkit overview](docs/toolkit/index.md) — entry point and suggested reading order.
+- [Implementation Guide](docs/toolkit/implementation-guide.md) — step-by-step plan for introducing and embedding the framework in a team.
+- [Practices](docs/toolkit/practices.md) — concrete day-to-day patterns for using AI tools well, aligned with Microsoft's Hyper-Velocity Engineering.
+- [Slide Deck](docs/toolkit/slide-deck.md) — a ready-to-present Markdown deck for a 30–45 minute team session.
+- [Developer FAQ](docs/toolkit/developer-faq.md) — the questions engineers actually ask.
+- [For Early-Career Engineers](docs/toolkit/for-early-career-engineers.md) — practical habits for junior engineers, written for them directly.
+- [Relationship to HVE](docs/toolkit/relationship-to-hve.md) — how Human-First Engineering complements Microsoft's Hyper-Velocity Engineering.
 
 ### 📁 Project files
 
 - [Changelog](CHANGELOG.md) — version history.
-- [License](LICENSE.md) — CC BY-NC-SA 4.0.
+- [Licence](LICENSE.md) — CC BY-NC-SA 4.0.
+
+## 🛠️ Local development
+
+The site is built with [VitePress](https://vitepress.dev). The content lives in `docs/`.
+
+```bash
+npm install        # install dependencies
+npm run docs:dev   # start the local dev server
+npm run docs:build # build the static site to docs/.vitepress/dist
+```
+
+Every push to `main` builds and deploys to GitHub Pages via `.github/workflows/deploy.yml`.
 
 ## ✨ The one-line summary
 
-> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
+> Think first. Own the output. Grow through AI, not around it. Use AI intelligently. Trust AI, but verify everything.
 
-## ⚖️ License
+## ⚖️ Licence
 
 This work is licensed under CC BY-NC-SA 4.0. Share freely. Build on it. Don't sell it. See [LICENSE](LICENSE.md) for details.

@@ -1,0 +1,15 @@
+{
+  "name": "human-first-engineering",
+  "version": "1.1.0",
+  "description": "Human-First Engineering — growing engineers in the age of AI.",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}
