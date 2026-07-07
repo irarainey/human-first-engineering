@@ -8,7 +8,7 @@ These patterns are how teams move fast with AI. The framework's job is to make s
 
 ## 🤝 Relationship to Hyper-Velocity Engineering
 
-**Hyper-Velocity Engineering (HVE)** is a term [coined by Mike Lanzetta](https://www.linkedin.com/pulse/what-hypervelocity-engineering-mike-lanzetta-ckfwc/) of Microsoft's Industry Solutions Engineering (ISE) group. It describes a high-performance, AI-accelerated approach to software that lets expert, multi-disciplinary teams deliver production-quality outcomes at high speed — amplifying productivity and unlocking high-ROI innovation.
+**Hyper-Velocity Engineering (HVE)** is a term [coined by Mike Lanzetta](https://www.linkedin.com/pulse/what-hypervelocity-engineering-mike-lanzetta-ckfwc/) of Microsoft's Industry Solutions Engineering (ISE) group. It describes a high-performance, AI-accelerated approach to software that lets expert, multi-disciplinary teams deliver production-quality outcomes at high speed.
 
 Two framings from the HVE article are worth carrying forward verbatim:
 
@@ -52,7 +52,7 @@ The same sources consistently flag work where naive AI use *loses* time:
 
 Rule of thumb: if you cannot review the output critically, you are not the right person to be generating it with AI yet. Pair with someone who can, or read and learn the codebase until you can review it on your own.
 
-## 🧭 Context is a first-class engineering asset
+## 🧭 Context is an engineering asset
 
 A common failure mode in teams using AI heavily is not weak prompts but thin *context*. AI is only as good as the knowledge it is working from, and that knowledge is an engineering asset in its own right: something the team creates deliberately, curates, versions, and owns.
 
@@ -73,7 +73,7 @@ This is not prompt engineering: prompts are transient, context is durable. It is
 - **Make it serve humans first.** Good context helps the next engineer reason about the system as much as it helps the AI. If it only makes sense to a model, it is not good context.
 - **Keep the default context small.** Make one lightweight file the always-on core and let it point to deeper detail loaded only when relevant, rather than stuffing everything into the window. More context is not better context. See [Context Engineering](context-engineering.md).
 
-The payoff is compounding: a junior joining the team inherits the reasoning, not just the code, and the AI reinforces that reasoning instead of guessing around it. When context is thin, both humans and AI fall back to reconstructing intent from scratch, and the understanding that makes an engineer senior never accumulates anywhere durable.
+The payoff accumulates: a junior joining the team inherits the reasoning, not just the code, and the AI reinforces that reasoning instead of guessing around it. When context is thin, both humans and AI fall back to reconstructing intent from scratch, and the understanding that makes an engineer senior never accumulates anywhere durable.
 
 For long-running efforts — where sessions are compacted, tools change, and reasoning is lost over time — see [Context Engineering](context-engineering.md) for preservation patterns, a lightweight file format, and example artefacts.
 
@@ -115,11 +115,11 @@ Knowing it matters is not the same as knowing how to get better. These are concr
 - **Keep a personal catalogue of what AI gets wrong.** Note the subtle mistakes you catch. Patterns repeat across models and projects, and your list becomes a fast, personal review checklist — and good raw material for your team's instruction files.
 - **Practise on low-stakes changes.** Review generated code deliberately even when the change is small and safe, so the habits are automatic when the stakes are high.
 
-## 🚀 High-leverage patterns
+## 🚀 Patterns worth adopting
 
 These are patterns worth adopting team-wide. Each has a clear shape, a clear boundary, and a clear human-in-the-loop checkpoint.
 
-### Docs as first-class, testable artefacts
+### Docs as testable artefacts
 
 Treat documentation the way you treat code: written, reviewed, and *tested*.
 
@@ -141,7 +141,7 @@ Architecture, class, and sequence diagrams are time-consuming by hand and often 
 
 ### Data visualisation and exploration
 
-This is one of the highest-leverage uses of AI. Plotting code is syntax-heavy, library-fragmented, and well represented in training data.
+This is one of the best uses of AI. Plotting code is syntax-heavy, library-fragmented, and well represented in training data.
 
 - Be explicit about the library (`matplotlib`, `seaborn`, `plotly`) and the shape of the data.
 - Iterate the prompt incrementally — add one requirement at a time (sort order, colours, axis formatting, annotations) rather than specifying everything up front.
@@ -169,7 +169,7 @@ Treat the prompt as a draft worth refining:
 - Refine the prompt, not just the output. A better prompt is reusable; a hand-fixed output is not.
 - When a prompt produces consistently good results, save it. A shared prompt library is as valuable as a shared utility library.
 
-### Context is leverage
+### Context makes the difference
 
 Poor output is often a context problem — one of the first things to check before re-running a prompt:
 
@@ -178,7 +178,7 @@ Poor output is often a context problem — one of the first things to check befo
 - Did you tell the model what *not* to do (e.g. do not invent APIs, do not duplicate existing logic)?
 - Are you using the right mode (ask vs. agent, with vs. without code context)?
 
-Relevant context is leverage. Too much context is noise. Provide the first, not the second.
+Relevant context helps; too much is noise. Provide the first, not the second.
 
 ### Codify team standards into AI guidance
 
@@ -260,14 +260,14 @@ A small number of shared artefacts give an outsized return. Every team running a
 - **A data boundary policy** — what must never go into a prompt (secrets, credentials, regulated data).
 - **A named owner** for each of the above.
 
-Keep them short. Review them regularly. Treat them as first-class engineering artefacts.
+Keep them short. Review them regularly. Treat them as engineering artefacts.
 
 ## 🏁 Getting started
 
 Adapted from HVE's own four-step starter, with HFE's human-growth lens added:
 
-1. **Identify your team's highest-friction activities.** Where are you losing time to tedium, lookup, or repetition? Those are your first AI leverage points.
-2. **Create shared engineering standards that both humans and AI can follow.** Instruction files, prompt libraries, rules. Treat them as first-class artefacts.
+1. **Identify your team's highest-friction activities.** Where are you losing time to tedium, lookup, or repetition? Those are the first places AI will help.
+2. **Create shared engineering standards that both humans and AI can follow.** Instruction files, prompt libraries, rules. Treat them as engineering artefacts.
 3. **Encourage cross-functional pairing with AI assistants.** Not just engineers — TPMs, designers, security, data science.
 4. **Measure velocity, quality, *and* engineer growth.** Not just story points closed, but defect rates, incident frequency, review depth, and — the HFE addition — the growth of the engineers doing the work.
 

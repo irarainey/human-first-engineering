@@ -20,7 +20,7 @@ No. The framework assumes you will use AI heavily and aims to make you better at
 
 ### Is this just for junior engineers?
 
-No. It applies to every engineer at every level. Juniors get the most explicit attention because they are the most exposed to the deskilling risk, but seniors and principals carry the heaviest responsibility for making the framework real. If you are senior, you are a multiplier — for better or worse.
+No. It applies to every engineer at every level. Juniors get the most explicit attention because they are the most exposed to the deskilling risk, but seniors and principals carry the heaviest responsibility for making the framework real. If you are senior, the team takes its lead from you — for better or worse.
 
 ### Why do we need a framework? Engineers will figure it out.
 

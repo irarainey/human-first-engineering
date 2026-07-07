@@ -1,6 +1,6 @@
 # Context Engineering
 
-The [practices guide](practices.md#context-is-a-first-class-engineering-asset) introduces context as a first-class engineering asset. This page goes deeper, because a specific problem is emerging in AI-native teams that deserves its own treatment: **engineering understanding is being lost over time.**
+The [practices guide](practices.md#context-is-an-engineering-asset) introduces context as an engineering asset. This page goes deeper, because a specific problem is emerging in AI-native teams that deserves its own treatment: **engineering understanding is being lost over time.**
 
 ## 🪟 The context window is finite
 
@@ -24,7 +24,7 @@ It is not prompt engineering.
 | **Owner** | The individual prompting | The team |
 | **Failure mode** | A weak answer | Lost understanding, repeated mistakes, inconsistent architecture |
 
-Prompt engineering optimises a moment. Context engineering compounds over the life of a project. The second is where the leverage — and the risk — actually lives.
+Prompt engineering optimises a moment. Context engineering compounds over the life of a project. The second is where the gains — and the risk — actually lie.
 
 ### Why long-running AI workflows make this urgent
 
@@ -43,7 +43,7 @@ The proposition is simple: **treat context the way you treat source code, archit
 - Continuity across sessions, tools, and people — the reasoning outlives the conversation that produced it.
 - Consistency — humans and AI work from the same understanding, so approaches stop diverging.
 - Onboarding — a new engineer (or a fresh agent) inherits the *why*, not just the *what*.
-- Compounding leverage — good context makes every future interaction better.
+- It compounds — good context makes every future interaction better.
 
 **Risks and failure modes**
 
@@ -173,6 +173,6 @@ This preserves what Human-First Engineering cares about most: **judgement and un
 
 ## 🔗 See also
 
-- [Practices — Context is a first-class engineering asset](practices.md#context-is-a-first-class-engineering-asset)
+- [Practices — Context is an engineering asset](practices.md#context-is-an-engineering-asset)
 - [Framework — Pillar 4](../framework.md#pillar-4-use-ai-intelligently) — use AI intelligently, including encoding durable context.
 - [Templates — CONTEXT.md](templates/context.md), [ARCHITECTURE.md](templates/architecture.md), [DECISIONS.md](templates/decisions.md).

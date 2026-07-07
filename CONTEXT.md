@@ -38,6 +38,9 @@ and a **toolkit** (how to embed both in a team).
 - `CRITICAL` — **`docs/` is the published site.** Internal artefacts stay at the
   repo root, outside `docs/` (see DECISIONS.md, D-005).
 - `IMPORTANT` — **British English** everywhere in prose (D-006).
+- `IMPORTANT` — **Plain language.** No buzzwords, slogans, or consultancy-speak
+  (e.g. "leverage", "first-class", "unlock", "multiplier", "synergy",
+  "high-ROI"). Prose is plain, direct, and defensible.
 - `IMPORTANT` — Cross-page **anchor links** use the clean, emoji-stripped slug
   form; the build does not validate anchors, so check them by hand (D-004).
 - `IMPORTANT` — Keep `VERSION`, `package.json`, and `hfeVersion` in

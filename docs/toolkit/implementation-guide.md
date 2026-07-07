@@ -85,7 +85,7 @@ Capture the answers. They become your team's first commitments.
 - *"AI will replace engineers."* It will not. But careless use will erode the engineers we have.
 - *"This is mandatory."* The framework works because it is internalised, not because it is enforced. Frame it as a way of working, not a process to comply with.
 
-## 6️⃣ Empower principals and seniors as multipliers
+## 6️⃣ Empower seniors and principals to lead
 
 Senior engineers are where culture becomes durable. Charge them explicitly with:
 
