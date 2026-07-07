@@ -32,7 +32,7 @@ The site is published at [humanfirstengineering.dev](https://humanfirstengineeri
 ### 📁 Project files
 
 - [Changelog](CHANGELOG.md) — version history.
-- [License](LICENSE.md) — CC BY-NC-SA 4.0.
+- [Licence](LICENSE.md) — CC BY-NC-SA 4.0.
 
 ## 🛠️ Local development
 
@@ -48,8 +48,8 @@ Every push to `main` builds and deploys to GitHub Pages via `.github/workflows/d
 
 ## ✨ The one-line summary
 
-> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
+> Think first. Own the output. Grow through AI, not around it. Use AI intelligently. Trust AI, but verify everything.
 
-## ⚖️ License
+## ⚖️ Licence
 
 This work is licensed under CC BY-NC-SA 4.0. Share freely. Build on it. Don't sell it. See [LICENSE](LICENSE.md) for details.

@@ -2,7 +2,7 @@
 
 Writing code has never been the whole of engineering, and engineers have never worked without assistance. Compilers, IDEs, autocomplete, static analysis — each wave of tooling automated something that used to be manual. AI is the next step on that same path.
 
-The fundamental question AI-assisted development poses is not new: **what does it mean to be a great engineer when the tooling around us gets more powerful?** The answer has always been the same. An engineer's value moves further up the stack — toward understanding, judgement, and the kind of contextual reasoning that tools cannot replicate.
+The fundamental question AI-assisted development poses is not new: **what does it mean to be a great engineer when the tooling around us gets more powerful?** The answer has always been the same. An engineer's value moves further up the stack — towards understanding, judgement, and the kind of contextual reasoning that tools cannot replicate.
 
 ## 📜 What we believe
 
@@ -24,7 +24,7 @@ Using AI well is a craft of its own. Model choice, context, and prompting all sh
 
 ### 🪪 We own what we ship
 
-Only humans can be accountable for quality, clarity, and safety. Every line of AI-generated code has a human owner. If you cannot explain it, you do not ship it.
+Only humans can be accountable for quality, clarity, and safety. Every change an engineer ships has a named human owner, however it was generated. If you cannot explain it, you do not ship it.
 
 ### 🔍 We trust AI, but we verify everything
 
@@ -44,7 +44,7 @@ Velocity matters only when it produces maintainable, coherent systems that the h
 
 Velocity without understanding is not progress — it is debt. An engineer who can direct an AI agent well but cannot reason about what it produces is not a senior engineer in waiting. They are a risk.
 
-The engineers we fail to grow today are the senior engineers missing from the industry in a decade. Protecting that pipeline is the reason these beliefs exist.
+The engineers we fail to grow today are the senior engineers missing from the industry in a decade.
 
 ## 🌱 A commitment to early-career engineers
 

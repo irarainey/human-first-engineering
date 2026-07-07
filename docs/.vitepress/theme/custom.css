@@ -30,10 +30,10 @@
   --vp-home-hero-name-background: none;
   --vp-home-hero-image-background-image: linear-gradient(
     120deg,
-    rgba(96, 165, 250, 0.3),
-    rgba(8, 73, 226, 0.3)
+    rgba(37, 99, 235, 0.35),
+    rgba(8, 73, 226, 0.4)
   );
-  --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-image-filter: blur(40px);
 
   /* Solid brand buttons. */
   --vp-button-brand-bg: #0849e2;
@@ -70,6 +70,13 @@
 
   --vp-home-hero-name-color: #93c5fd;
   --vp-home-hero-name-background: none;
+
+  /* Keep the dark-theme glow softer than the darkened light-theme one. */
+  --vp-home-hero-image-background-image: linear-gradient(
+    120deg,
+    rgba(96, 165, 250, 0.18),
+    rgba(8, 73, 226, 0.18)
+  );
 }
 
 /*
@@ -96,4 +103,15 @@
   max-width: 100%;
   white-space: nowrap;
   font-size: clamp(1.9rem, 7.5vw, 3.5rem);
+}
+
+/*
+ * Nudge the hero logo further to the right on desktop, where it sits beside
+ * the text. Scoped to the ≥960px row layout so the stacked mobile hero is
+ * unaffected.
+ */
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    transform: translateX(3rem);
+  }
 }

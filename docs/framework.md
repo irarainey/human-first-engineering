@@ -131,7 +131,7 @@ This is how we stay safe, sane, and high-quality in a world where AI can be conf
 
 ## ✨ The one-line summary
 
-> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
+> Think first. Own the output. Grow through AI, not around it. Use AI intelligently. Trust AI, but verify everything.
 
 ## ➡️ Next
 

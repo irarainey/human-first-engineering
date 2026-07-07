@@ -113,7 +113,7 @@ Do not add new ceremonies. Weave the framework into ones you already run.
 
 ## 8️⃣ Invest in the tooling layer
 
-The framework only works if the tooling around it is in good shape. As a baseline, every team should have a small, named set of artifacts — and it helps to keep the vocabulary straight:
+The framework only works if the tooling around it is in good shape. As a baseline, every team should have a small, named set of artefacts — and it helps to keep the vocabulary straight:
 
 - **`CONTEXT.md`** per project — the small, always-on project memory (goals, state, constraints) that links out to the rest.
 - **An instruction file** per project — the standing AI behaviour and conventions, kept short and current.
@@ -122,7 +122,7 @@ The framework only works if the tooling around it is in good shape. As a baselin
 - **Model and data guidance** — which models are approved and when, and what must never go into a prompt (secrets, credentials, regulated data).
 - **A named owner** for each of the above.
 
-These are small artifacts. They have an outsized effect on quality.
+These are small artefacts. They have an outsized effect on quality.
 
 ## 9️⃣ Review quarterly
 

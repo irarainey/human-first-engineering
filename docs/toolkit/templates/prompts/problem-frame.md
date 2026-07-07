@@ -27,7 +27,7 @@ Be concise. One or two sentences per point. If the task is genuinely trivial, sa
 
 - **You think before you prompt.** Writing the task description forces you to articulate what you actually need.
 - **The AI reasons with you, not for you.** It produces a frame, not an answer. The decision stays with you.
-- **You get a sharable artifact.** The output is reviewable, storable, and improves the PR description for free.
+- **You get a sharable artefact.** The output is reviewable, storable, and improves the PR description for free.
 - **Surfaces missing context early.** Open questions caught here save rework later.
 
 ## When not to use this

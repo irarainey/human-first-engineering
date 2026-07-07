@@ -2,7 +2,7 @@
 
 A project-memory file. It gives any engineer — or any AI session or agent — the goals, current state, and constraints they need to be useful immediately, without re-explaining the project from scratch.
 
-Save it as `CONTEXT.md` at the root of your repository. It is the one file the tool should always read, so keep it small — a page at most — and make it mostly an index: inline only what is `CRITICAL`, and link deeper documents (`ARCHITECTURE.md`, ADRs, specs) to be opened only when relevant. Curate it; do not let it accrete. See [Context Engineering](../context-engineering.md) for the reasoning behind this file.
+Save it as `CONTEXT.md` at the root of your repository. Alongside your instruction file, it is one of the files the tool should always read, so keep it small — a page at most — and make it mostly an index: inline only what is `CRITICAL`, and link deeper documents (`ARCHITECTURE.md`, ADRs, specs) to be opened only when relevant. Curate it; do not let it accrete. See [Context Engineering](../context-engineering.md) for the reasoning behind this file.
 
 The block below is a realistic example. Replace it with your project's specifics.
 

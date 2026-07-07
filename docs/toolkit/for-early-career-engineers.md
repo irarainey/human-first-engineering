@@ -51,7 +51,7 @@ See [Reviewing AI-generated work is its own skill](practices.md#reviewing-ai-gen
 
 ### Surface fluency without comprehension
 
-AI makes it easy to produce code that looks right, passes tests, gets merged — and leaves you no wiser. If you finish a task and cannot explain the solution without re-reading it, you did not learn the thing you just shipped. Go back. Read it again. Make notes. Make sure the next time you see a similar problem, you would know what to do.
+AI makes it easy to produce code that looks right, passes tests, gets merged — and leaves you no wiser. If you finish a task and cannot explain the solution without re-prompting the AI, you did not learn the thing you just shipped. Go back. Read it again. Make notes. Make sure the next time you see a similar problem, you would know what to do.
 
 ### The shortcut that skips the rep
 

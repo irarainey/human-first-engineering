@@ -69,7 +69,7 @@ AI is a bigger step on the same ladder — not a different one.
 
 Previous tools automated the **tedious work**.
 
-This one can automate the parts engineers actually **learn from** — reading code, working through a bug, drafting a solution and realising it is wrong.
+This one can shortcut the very moments engineers **learn from** — reading code, working through a bug, drafting a solution and realising it is wrong.
 
 ---
 
@@ -147,7 +147,7 @@ A clear prompt is the by-product of clear thinking.
 
 *AI assists. Humans are accountable.*
 
-- Every line of AI-generated code has a named human owner.
+- Every change shipped has a named human owner.
 - Code reviews focus on reasoning, not syntax.
 - **If you cannot explain it, you do not ship it.**
 
@@ -223,7 +223,7 @@ In small groups, answer:
 
 ## The one-line summary
 
-> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
+> Think first. Own the output. Grow through AI, not around it. Use AI intelligently. Trust AI, but verify everything.
 
 ---
 

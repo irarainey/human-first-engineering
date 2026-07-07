@@ -1,8 +1,3 @@
----
-title: Changelog
-nav_order: 5
----
-
 # Changelog
 
 ## [1.1.0] - 2026-07-06

@@ -92,7 +92,7 @@ No. Prompting is how you phrase a single request; context engineering is the kno
 
 ### Will AI make me a worse engineer?
 
-It can, if you let it. It can also make you a much better one, if you use it deliberately. The difference is whether you use AI to *avoid* understanding things or to *accelerate* your understanding of them. The framework is designed to nudge you toward the second pattern.
+It can, if you let it. It can also make you a much better one, if you use it deliberately. The difference is whether you use AI to *avoid* understanding things or to *accelerate* your understanding of them. The framework is designed to nudge you towards the second pattern.
 
 ### I am a junior engineer. Should I be worried?
 

@@ -5,7 +5,7 @@
 Copy the prompt below into your AI assistant, replacing `<DIFF, DESCRIPTION, OR FILE>` with the change you are considering.
 
 ```text
-Assess the risk of the following change. Be honest; err toward caution.
+Assess the risk of the following change. Be honest; err towards caution.
 
 <DIFF, DESCRIPTION, OR FILE>
 

@@ -29,7 +29,7 @@ Human-First Engineering and HVE are complementary:
 
 HVE's own findings make the case plainly: the biggest gains happen when AI is used by people with enough domain expertise to steer and verify it; without that expertise, AI can slow a team down. HFE is how we grow and protect that expertise so HVE is sustainable.
 
-The practices below lean on HVE's patterns and fit inside HFE's principles.
+The practices below are grounded in HFE's principles and draw on HVE's published patterns where useful.
 
 ## ⚡ Where AI speeds you up
 
@@ -54,9 +54,9 @@ Rule of thumb: if you cannot review the output critically, you are not the right
 
 ## 🧭 Context is a first-class engineering asset
 
-The strongest signal from teams using AI heavily is not that their prompts are weak — it is that their *context* is thin. AI is only as good as the knowledge it is working from, and that knowledge is an engineering asset in its own right: something the team creates deliberately, curates, versions, and owns.
+A common failure mode in teams using AI heavily is not weak prompts but thin *context*. AI is only as good as the knowledge it is working from, and that knowledge is an engineering asset in its own right: something the team creates deliberately, curates, versions, and owns.
 
-This is not prompt engineering. Prompts are transient; context is durable. Prompt engineering asks *"how do I phrase this request?"* Context engineering asks *"what knowledge should exist so that any engineer — or any AI — can pick this up and reason about it correctly?"* The second question is the one that compounds.
+This is not prompt engineering: prompts are transient, context is durable. It is the knowledge that should exist so any engineer — or any AI — can pick up the work and reason about it correctly. That is the question that compounds. See [Context Engineering](context-engineering.md) for the full treatment.
 
 ### What counts as context
 
@@ -119,7 +119,7 @@ Knowing it matters is not the same as knowing how to get better. These are concr
 
 These are patterns worth adopting team-wide. Each has a clear shape, a clear boundary, and a clear human-in-the-loop checkpoint.
 
-### Docs as first-class, testable artifacts
+### Docs as first-class, testable artefacts
 
 Treat documentation the way you treat code: written, reviewed, and *tested*.
 
@@ -171,7 +171,7 @@ Treat the prompt as a draft worth refining:
 
 ### Context is leverage
 
-Poor output is almost always a context problem. Before re-running a prompt, check:
+Poor output is often a context problem — one of the first things to check before re-running a prompt:
 
 - Did you reference the right files, modules, or examples?
 - Did you provide an existing pattern to match?
@@ -192,7 +192,7 @@ The payoff: code that is secure, robust, and consistent *by default* — without
 
 ### Write for AI agents as well as humans
 
-AI agents tend to rewrite entire files, not surgical sections. Structure your code with that in mind:
+Many AI agents make broad edits rather than surgical ones, especially when files are large or boundaries are unclear. Structure your code with that in mind:
 
 - **Small, atomic files.** Reduces code churn, merge complexity, and token usage when an agent edits them.
 - **Clear module boundaries.** Easier for an agent — and a human reviewer — to reason about a single unit.
@@ -249,9 +249,9 @@ The framework is written for individuals, but the hardest concerns are team-leve
 - **Share real examples, not theory.** Publish the instruction files, agent configurations, and prompts that actually work as living examples others can copy and adapt. "Show me how you did it" beats "here is the best practice".
 - **Make the thinking visible, not just the output.** Share the prompts, the dead ends, and the reasoning behind a change, not only the finished diff. The reps that grow engineers live in the thinking, so surface it (see [Pillar 3](../framework.md#pillar-3-grow-through-ai-not-around-it)).
 
-## 📦 Team artifacts worth maintaining
+## 📦 Team artefacts worth maintaining
 
-A small number of shared artifacts give an outsized return. Every team running at HVE speed should have:
+A small number of shared artefacts give an outsized return. Every team running at HVE speed should have:
 
 - **An instruction / context file** per project — conventions, architectural context, and "how to work with this codebase".
 - **A record of significant architectural decisions** — the *why* behind the choices, captured so it outlives the session and the people who made it.
@@ -260,14 +260,14 @@ A small number of shared artifacts give an outsized return. Every team running a
 - **A data boundary policy** — what must never go into a prompt (secrets, credentials, regulated data).
 - **A named owner** for each of the above.
 
-Keep them short. Review them regularly. Treat them as first-class engineering artifacts.
+Keep them short. Review them regularly. Treat them as first-class engineering artefacts.
 
 ## 🏁 Getting started
 
 Adapted from HVE's own four-step starter, with HFE's human-growth lens added:
 
 1. **Identify your team's highest-friction activities.** Where are you losing time to tedium, lookup, or repetition? Those are your first AI leverage points.
-2. **Create shared engineering standards that both humans and AI can follow.** Instruction files, prompt libraries, rules. Treat them as first-class artifacts.
+2. **Create shared engineering standards that both humans and AI can follow.** Instruction files, prompt libraries, rules. Treat them as first-class artefacts.
 3. **Encourage cross-functional pairing with AI assistants.** Not just engineers — TPMs, designers, security, data science.
 4. **Measure velocity, quality, *and* engineer growth.** Not just story points closed, but defect rates, incident frequency, review depth, and — the HFE addition — the growth of the engineers doing the work.
 

@@ -1,6 +1,6 @@
 # Templates & Prompts
 
-Reusable artifacts that operationalise the [Human-First Engineering framework](https://humanfirstengineering.dev). Each file is a starting point — adapt it to your project's conventions.
+Reusable artefacts that operationalise the [Human-First Engineering framework](https://humanfirstengineering.dev). Each file is a starting point — adapt it to your project's conventions.
 
 ## 📄 Instruction files
 
