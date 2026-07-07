@@ -26,6 +26,7 @@ Short, reusable prompts for specific moments in the framework. Save them to a sh
 - **[prompts/problem-frame.md](prompts/problem-frame.md)** — **Pillar 1 — Think first.** Use at the start of non-trivial work to force a clear problem frame before any code is generated.
 - **[prompts/review-assistant.md](prompts/review-assistant.md)** — **Pillar 2 — Own the output.** Helps a reviewer probe reasoning, not just syntax, when reviewing AI-assisted code.
 - **[prompts/risk-assessment.md](prompts/risk-assessment.md)** — **Pillar 5 — Trust AI, but verify everything.** Categorises a change as low, medium, or high risk and recommends a verification level.
+- **[prompts/context-bootstrap.md](prompts/context-bootstrap.md)** — **Context Engineering / Pillar 4.** Run it on an existing repository to draft its `CONTEXT.md`, `ARCHITECTURE.md`, and `DECISIONS.md`/ADRs from the code and existing instruction files, and wire them into the repo's instruction files so `CONTEXT.md` loads automatically and the linked files are opened only when needed.
 
 ## 🛠️ How to use these
 

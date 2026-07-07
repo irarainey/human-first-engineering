@@ -82,6 +82,7 @@ export default defineConfig({
             { text: 'Problem Frame Prompt', link: '/toolkit/templates/prompts/problem-frame' },
             { text: 'Review Assistant Prompt', link: '/toolkit/templates/prompts/review-assistant' },
             { text: 'Risk Assessment Prompt', link: '/toolkit/templates/prompts/risk-assessment' },
+            { text: 'Context Bootstrap Prompt', link: '/toolkit/templates/prompts/context-bootstrap' },
             { text: 'CONTEXT.md', link: '/toolkit/templates/context' },
             { text: 'ARCHITECTURE.md', link: '/toolkit/templates/architecture' },
             { text: 'DECISIONS.md', link: '/toolkit/templates/decisions' },

@@ -41,4 +41,4 @@ If the assessment surprises you — you thought LOW, it came back HIGH — that 
 
 ---
 
-*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/toolkit/templates). Operationalises [Pillar 5 — Trust AI, but verify everything](https://humanfirstengineering.dev/framework#pillar-5-trust-ai-but-verify-everything).*
+*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/docs/toolkit/templates). Operationalises [Pillar 5 — Trust AI, but verify everything](https://humanfirstengineering.dev/framework#pillar-5-trust-ai-but-verify-everything).*

@@ -38,4 +38,4 @@ Be concise. One or two sentences per point. If the task is genuinely trivial, sa
 
 ---
 
-*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/toolkit/templates). Operationalises [Pillar 1 — Think first](https://humanfirstengineering.dev/framework#pillar-1-think-first).*
+*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/docs/toolkit/templates). Operationalises [Pillar 1 — Think first](https://humanfirstengineering.dev/framework#pillar-1-think-first).*

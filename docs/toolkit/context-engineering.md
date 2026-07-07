@@ -173,6 +173,7 @@ This preserves what Human-First Engineering cares about most: **judgement and un
 
 ## 🔗 See also
 
+- [Templates — Context Bootstrap prompt](templates/prompts/context-bootstrap.md) — run it on an existing repository to draft these files from the code and existing instruction files.
 - [Practices — Context is an engineering asset](practices.md#context-is-an-engineering-asset)
 - [Framework — Pillar 4](../framework.md#pillar-4-use-ai-intelligently) — use AI intelligently, including encoding durable context.
 - [Templates — CONTEXT.md](templates/context.md), [ARCHITECTURE.md](templates/architecture.md), [DECISIONS.md](templates/decisions.md).

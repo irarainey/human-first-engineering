@@ -69,4 +69,4 @@ Help them reason through the problem — do not just hand them the answer. Ask w
 
 ---
 
-*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/toolkit/templates). Adapt it to your project; do not adopt it unchanged.*
+*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/docs/toolkit/templates). Adapt it to your project; do not adopt it unchanged.*

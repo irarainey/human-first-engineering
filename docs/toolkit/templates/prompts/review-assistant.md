@@ -37,4 +37,4 @@ The goal is not to catch the author out. It is to make the review a conversation
 
 ---
 
-*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/toolkit/templates). Operationalises [Pillar 2 — Own the output](https://humanfirstengineering.dev/framework#pillar-2-own-the-output).*
+*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/docs/toolkit/templates). Operationalises [Pillar 2 — Own the output](https://humanfirstengineering.dev/framework#pillar-2-own-the-output).*

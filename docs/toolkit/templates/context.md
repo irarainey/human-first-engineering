@@ -58,4 +58,4 @@ _Read these only when the task touches them — do not pull them in by default._
 
 ---
 
-*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/toolkit/templates). Adapt it to your project; do not adopt it unchanged.*
+*Part of the [Human-First Engineering templates](https://github.com/irarainey/human-first-engineering/tree/main/docs/toolkit/templates). Adapt it to your project; do not adopt it unchanged.*

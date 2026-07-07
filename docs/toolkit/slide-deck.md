@@ -191,17 +191,12 @@ Always human-led:
 
 ## The human review ladder
 
-*As AI does more, the human responsibility moves up — never disappears.*
+*As AI does more, the human responsibility moves up — it never disappears.*
 
-| What AI is doing | What the human still owns |
-| --- | --- |
-| Summarising or explaining | Verifying facts and framing against the source |
-| Suggesting designs | Making the decision and owning the trade-offs |
-| Generating code | Understanding every significant line before merge |
-| Reviewing a PR | Reviewing the *reasoning*, not accepting the verdict |
-| Running as an agent | Approving scope, checkpoints, and outcome |
+- The more the AI does — summarising, designing, coding, reviewing, running as an agent — the more deliberate the human checkpoint next to it has to be.
+- More autonomy granted means a sharper human checkpoint, never a lighter one.
 
-The more autonomy you grant, the more deliberate the human checkpoint.
+See the framework for the full ladder, level by level.
 
 ---
 
