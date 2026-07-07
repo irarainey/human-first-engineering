@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Human-First Engineering
   text: Growing engineers in the age of AI
-  tagline: Tools evolve. Craft endures. Principles and practices for keeping engineering judgement, ownership, and craft intact in an AI-enabled world.
+  tagline: Principles and practices for keeping engineering judgement, ownership, and craft intact in an AI-enabled world.
   image:
     src: /hfe-logo.png
     alt: Human-First Engineering
