@@ -76,7 +76,7 @@ Capture the answers. They become your team's first commitments.
 
 **The one-line version:**
 
-> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
+> Think first. Own the output. Grow through AI, not around it. Use AI intelligently. Trust AI, but verify everything.
 
 **Framings to avoid**
 
@@ -148,7 +148,7 @@ Reinforce culture by highlighting:
 
 Repetition builds belief. Repeat the one-line summary often:
 
-> Think first. Own what you ship. Grow through AI, not around it. Use AI intelligently. Verify everything.
+> Think first. Own the output. Grow through AI, not around it. Use AI intelligently. Trust AI, but verify everything.
 
 ## 📝 A final note
 
