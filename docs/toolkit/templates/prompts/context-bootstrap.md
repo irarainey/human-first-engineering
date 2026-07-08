@@ -34,12 +34,21 @@ say so — do not guess, and do not fill gaps with generic best practice.
 1. CONTEXT.md (root) — the small, always-on core. Keep it to a page. Cover:
    what this is, current state, goals and non-goals, constraints, and a
    "load on demand" index linking to the files below. Inline only what is
-   CRITICAL; link the rest.
+   CRITICAL; link the rest. Write each constraint as its own bullet with its
+   load-level tag inline as a back-ticked prefix, in exactly this shape:
+
+       - `CRITICAL` — Order state transitions are irreversible once emitted.
+       - `IMPORTANT` — All money is stored in integer pence, never floats.
+       - `REFERENCE` — We target p99 < 200ms for order reads.
+
+   Use one of `CRITICAL`, `IMPORTANT`, or `REFERENCE` on every constraint. Do
+   not bury the level in prose, drop it into a separate list, or leave it off.
 2. ARCHITECTURE.md (root) — a lean overview: shape, boundaries, data-flow
    rules, and a component map that links to deeper per-area docs. Structure
    and boundaries, not implementation detail that changes weekly.
 3. DECISIONS.md (root) — a one-line-per-decision index, newest first, linking
-   to full ADRs under docs/adr/. Write an ADR only for decisions the
+   to full ADRs under docs/adr/ (or the repository's existing ADR location, if
+   it already keeps them elsewhere). Write an ADR only for decisions the
    repository already evidences.
 
 ## Turn existing instructions into decision records
@@ -48,7 +57,8 @@ Existing instruction files often encode decisions as bare rules ("no raw SQL",
 "all money in integer pence") without the reasoning. For each such rule that is
 non-obvious or hard to reverse:
 
-- Draft a short ADR under docs/adr/ capturing the decision, why, and — if the
+- Draft a short ADR under docs/adr/ (or the repository's existing ADR location,
+  if it already keeps them elsewhere) capturing the decision, why, and — if the
   repository shows it — the alternative that was rejected. Capture only reasoning
   the repository actually evidences; where the reasoning is not documented, record
   it as an open question for me to answer rather than inventing a rationale.
@@ -95,7 +105,9 @@ behave the same way.
 - Never copy secrets, credentials, tokens, connection strings, or customer or
   personal data into the context files. If you find such values while surveying,
   note that they exist and where — do not reproduce them.
-- Tag what matters so it doubles as a load level:
+- Tag what matters so it doubles as a load level. In CONTEXT.md, write the tag
+  inline as a back-ticked prefix on the constraint itself, in the shape shown
+  under "draft these files" above — never as a bare word or a separate heading:
   - CRITICAL — always loaded, must not be forgotten (kept inline in CONTEXT.md).
   - IMPORTANT — load when working in that area (referenced from the core).
   - REFERENCE — load only if needed; reconstructable from the code.
