@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // The framework version this site documents. Keep in step with the root VERSION file.
-const hfeVersion = '1.1.0'
+const hfeVersion = '1.1.1'
 
 // Clean, readable heading slugs: strip emoji, em dashes, and punctuation so anchors
 // look like `#pillar-1-think-first` rather than keeping the leading emoji.

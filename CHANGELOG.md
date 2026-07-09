@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.1] - 2026-07-09
+
+**Context Bootstrap prompt**
+
+- Mandated inline, back-ticked load-level tags (`` `CRITICAL` ``, `` `IMPORTANT` ``, `` `REFERENCE` ``) on every constraint drafted for `CONTEXT.md`, with a self-contained example so the instruction is enforceable without access to the `CONTEXT.md` template.
+- Deferred to a repository's existing ADR location when one already exists, instead of assuming `docs/adr/`.
+
+**Context Engineering page**
+
+- Added a "A narrower term, in wider use" section distinguishing Human-First Engineering's durable, team-owned usage of "context engineering" from the term's mainstream, model-facing/inference-time usage, citing its origin (Tobi Lütke, Andrej Karpathy) and Anthropic's own definition, and naming the actual new problem: making existing documentation discipline (notes, ADRs, wikis) survive a finite, lossy, token-costed context window.
+
 ## [1.1.0] - 2026-07-06
 
 Evolves the framework and toolkit to reflect an AI-native team, without changing the core philosophy or adding new pillars.
