@@ -12,17 +12,17 @@ Copy the prompt below into an AI assistant with access to the repository (an age
 ```text
 You are helping me bootstrap the context-engineering assets for this existing
 repository. Survey what is already here, then draft a small, factual set of
-context files for me to review. Do not invent anything. Propose everything as
-drafts: do not create, edit, or delete any file until I have reviewed and
-approved it.
+context files and instruction-file changes for me to review. Do not invent
+anything. Propose everything as drafts: do not create, edit, or delete any
+file until I have reviewed and approved it.
 
 ## Survey first (read-only)
 
 Read what the repository already tells you before writing anything:
 
 - README, docs, and any CONTRIBUTING or onboarding notes.
-- Existing AI instruction files: .github/copilot-instructions.md, CLAUDE.md,
-  .cursorrules, .github/instructions/**, or similar.
+- Existing AI instruction files: AGENTS.md, .github/copilot-instructions.md,
+  CLAUDE.md, .cursorrules, .github/instructions/**, or similar.
 - Project structure, entry points, and module boundaries.
 - Build, dependency, and config files (package manifests, CI workflows, IaC).
 
@@ -71,18 +71,19 @@ non-obvious or hard to reverse:
 
 ## Wire the assets into the AI's workflow
 
-The context files are only useful if the tools read them automatically. Propose
-creating or updating the repository's instruction files so every future session
-starts from this context without being told:
+The context files are only useful if the chosen tool reads them automatically.
+Identify the tool the repository uses, then propose creating or updating one
+repository instruction file so every future session starts from this context
+without being told:
 
-- Update the instruction files this repository already uses, and add any that
-  its tooling expects but that are missing: .github/copilot-instructions.md
-  (GitHub Copilot), CLAUDE.md (Claude), AGENTS.md (agents), .cursorrules
-  (Cursor), or similar. If none exist, propose the one that matches the team's
-  tools rather than all of them; if the repository gives no clear signal of
-  which tools the team uses, ask rather than guess.
-- In each, name CONTEXT.md as the always-on source of truth: instruct the
-  assistant to read it first, and not to ask for what it already contains.
+- Prefer AGENTS.md when the chosen tool supports it. OpenCode and GitHub
+  Copilot read it by default.
+- If the chosen tool does not support AGENTS.md, use its native
+  instruction-file convention instead. Do not add instruction files for tools
+  the team does not use.
+- In the chosen instruction file, name CONTEXT.md as the always-on source of
+  truth: instruct the assistant to read it first, and not to ask for what it
+  already contains.
 - Be explicit that CONTEXT.md is the *only* file loaded by default. The
   assistant must open ARCHITECTURE.md, DECISIONS.md, the ADRs, and any other
   linked document *only when the current task needs it* — never up front, never
@@ -90,12 +91,9 @@ starts from this context without being told:
   so the tool cannot treat the links as an invitation to load everything.
 - State that anything tagged CRITICAL is binding: if a change would contradict
   it, stop and flag rather than work around it.
-- Keep the instruction files short. Point at CONTEXT.md and the linked docs;
-  do not copy their content in. The instruction file is the hook, not a second
-  copy of the context.
-
-Keep the wording consistent across the instruction files so different tools
-behave the same way.
+- Keep the chosen instruction file short. Point at CONTEXT.md and the linked
+  docs; do not copy their content in. The instruction file is the hook, not a
+  second copy of the context.
 
 ## Rules for everything you write
 

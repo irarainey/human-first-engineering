@@ -4,12 +4,17 @@ Reusable artefacts that operationalise the [Human-First Engineering framework](h
 
 ## 📄 Instruction files
 
-Drop-in files that shape how AI assistants behave in your codebase. They encode Pillar 4's *"Encode team context in instruction files"* behaviour.
+Drop-in files that shape how AI assistants behave in your codebase. They encode
+Pillar 4's *"Encode team context in instruction files"* behaviour.
 
-- **[copilot-instructions.md](copilot-instructions.md)** — for GitHub Copilot. Place at `.github/copilot-instructions.md` in your repository.
-- **[CLAUDE.md](claude.md)** — for Claude Code and the Claude API. Place at the root of your repository.
+Prefer **[AGENTS.md](agents.md)** at the repository root when your chosen tool
+supports it. OpenCode and GitHub Copilot read it directly. If your tool does
+not support `AGENTS.md`, use its native instruction-file convention instead.
 
-Both encode the same principles; use whichever matches your tooling, or both.
+Choose the convention for the tool you use. There is no need to create files
+for tools your team does not use. Use
+[Copilot instructions](copilot-instructions.md) only for Copilot-specific or
+path-scoped guidance, and [CLAUDE.md](claude.md) when you use Claude Code.
 
 ## 🧠 Context artefacts
 
@@ -26,7 +31,7 @@ Short, reusable prompts for specific moments in the framework. Save them to a sh
 - **[prompts/problem-frame.md](prompts/problem-frame.md)** — **Pillar 1 — Think first.** Use at the start of non-trivial work to force a clear problem frame before any code is generated.
 - **[prompts/review-assistant.md](prompts/review-assistant.md)** — **Pillar 2 — Own the output.** Helps a reviewer probe reasoning, not just syntax, when reviewing AI-assisted code.
 - **[prompts/risk-assessment.md](prompts/risk-assessment.md)** — **Pillar 5 — Trust AI, but verify everything.** Categorises a change as low, medium, or high risk and recommends a verification level.
-- **[prompts/context-bootstrap.md](prompts/context-bootstrap.md)** — **Context Engineering / Pillar 4.** Run it on an existing repository to draft its `CONTEXT.md`, `ARCHITECTURE.md`, and `DECISIONS.md`/ADRs from the code and existing instruction files, and wire them into the repo's instruction files so `CONTEXT.md` loads automatically and the linked files are opened only when needed.
+- **[prompts/context-bootstrap.md](prompts/context-bootstrap.md)** — **Context Engineering / Pillar 4.** Run it on an existing repository to draft its `CONTEXT.md`, `ARCHITECTURE.md`, and `DECISIONS.md`/ADRs from the code and existing instruction files, then wire them into the instruction file used by your chosen tool so `CONTEXT.md` loads automatically and linked files open only when needed.
 
 ## 🛠️ How to use these
 

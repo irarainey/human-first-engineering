@@ -9,7 +9,9 @@ This is not a process. It is a way of working. The goal is to make the principle
 The full rollout below is a menu, not a mandate. If your team is under pressure and wants to start this week, do just these:
 
 - **Non-negotiables** (the parts that are not optional): a named human owner for every change; human-led reasoning for security, compliance, and irreversible work; and protecting early-career learning.
-- **This week:** add one instruction file and one `CONTEXT.md` to your busiest repo, and adopt one review habit — ask the author *why*, not just *what*.
+- **This week:** add an `AGENTS.md` where your tool supports it (otherwise use
+  its native instruction file) and one `CONTEXT.md` to your busiest repo, then
+  adopt one review habit — ask the author *why*, not just *what*.
 - **Later, when it earns its place:** the intro session, shared prompt libraries, quarterly reviews, and the rituals below.
 
 Everything else in this guide is there to help; adopt it as it proves useful, not because it is listed.

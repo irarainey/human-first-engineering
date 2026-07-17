@@ -72,6 +72,9 @@ This is not prompt engineering: prompts are transient, context is durable. It is
 - **Version it, review it, own it.** Instruction files and decision records are artefacts. They drift, they rot, and they deserve the same care as the code they describe.
 - **Make it serve humans first.** Good context helps the next engineer reason about the system as much as it helps the AI. If it only makes sense to a model, it is not good context.
 - **Keep the default context small.** Make one lightweight file the always-on core and let it point to deeper detail loaded only when relevant, rather than stuffing everything into the window. More context is not better context. See [Context Engineering](context-engineering.md).
+- **Prefer `AGENTS.md` where it is supported.** OpenCode and GitHub Copilot
+  read it by default. If your chosen tool does not support it, use that tool's
+  native instruction-file convention instead.
 
 The payoff accumulates: a junior joining the team inherits the reasoning, not just the code, and the AI reinforces that reasoning instead of guessing around it. When context is thin, both humans and AI fall back to reconstructing intent from scratch, and the understanding that makes an engineer senior never accumulates anywhere durable.
 
@@ -185,6 +188,8 @@ Relevant context helps; too much is noise. Provide the first, not the second.
 Do not rely on engineers remembering your conventions during every prompt. Encode them where the AI will see them.
 
 - Capture cross-cutting concerns — observability, error handling, logging, security defaults, code contracts — in instruction files, rules, or project-level prompts.
+- Prefer `AGENTS.md` for shared repository guidance when your chosen tool
+  supports it. Otherwise, use that tool's native instruction-file convention.
 - Update the guidance whenever a recurring review comment appears. If a reviewer has said the same thing twice, it belongs in the AI's context, not in another PR comment.
 - Treat the guidance itself as code. Review it. Version it. Own it.
 
@@ -242,7 +247,9 @@ These are the patterns that produce the "2x slower" outcome reported in the HVE 
 The framework is written for individuals, but the hardest concerns are team-level: inconsistent quality, knowledge that never gets shared, and "AI fighting AI" when everyone's tooling pulls in a different direction. A few lightweight rituals keep the practices above from fragmenting across a team.
 
 - **Agree what "I have reviewed this" means.** For AI-assisted PRs, the bar is reasoning explained, not just tests green. Reviewers ask *why*; authors are ready to answer. Consistency comes from a shared standard, not a shared tool.
-- **Prevent "AI fighting AI".** Divergent instruction files, prompts, and conventions make agents pull against each other. Converge on shared instruction files and a shared prompt library so the whole team's AI works from the same context.
+- **Keep conventions clear.** Use one instruction-file convention for the tool
+  your team uses, and keep a shared prompt library so engineers get consistent
+  guidance.
 - **Run AI-usage retrospectives.** Periodically review where AI sped you up, where it cost you time, and which prompts or patterns are worth promoting into the shared library. Fold the findings back into your instruction files.
 - **Hold tooling show-and-tells.** Short, regular sessions where engineers demo how they *actually* use AI. This is the "show me how others think" that teams ask for — not another training course.
 - **Run prompt and failure autopsies.** When AI produced something badly wrong — or surprisingly good — walk through *why* as a team. The reasoning is far more reusable than the result, and nobody needs to be blamed for a bad generation to learn from it.

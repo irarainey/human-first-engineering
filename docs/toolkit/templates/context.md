@@ -53,7 +53,7 @@ _Read these only when the task touches them — do not pull them in by default._
 
 - Architecture & boundaries → `ARCHITECTURE.md`
 - Significant decisions (the *why*, and what we rejected) → `DECISIONS.md`
-- Domain rules the AI must respect → `.github/copilot-instructions.md`
+- Agent guidance → `AGENTS.md` or your tool's native instruction file
 ````
 
 ---

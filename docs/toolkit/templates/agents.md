@@ -1,9 +1,12 @@
-# Claude Instructions
+# AGENTS.md
 
-Claude Code does not read `AGENTS.md` by default. Save this file as `CLAUDE.md`
-at the repository root, then adapt the **Project context** and **Common
-commands** sections to your codebase. Keep it short — if it exceeds one page,
-split or prune.
+The shared instruction file for your repository. Save it as `AGENTS.md` at the
+repository root, then adapt the **Project context** and **Common commands**
+sections to your codebase.
+
+Use `AGENTS.md` where your chosen tool supports it. OpenCode and GitHub Copilot
+read it directly. If your tool does not support `AGENTS.md`, use its native
+instruction-file convention instead.
 
 Copy everything in the block below.
 
@@ -25,7 +28,8 @@ You are assisting engineers who work to the [Human-First Engineering](https://hu
 
 ## What to flag
 
-Call out explicitly when a change touches any of these categories — they require human-led reasoning:
+Call out explicitly when a change touches any of these categories — they require
+human-led reasoning:
 
 - Security-sensitive code: authentication, authorisation, encryption, input validation.
 - Compliance, privacy, or regulatory logic.
@@ -51,7 +55,10 @@ In these categories, propose — do not decide. The engineer leads; you support.
 
 ## When the engineer is stuck
 
-Help them reason through the problem — do not just hand them the answer. Ask what they have tried, what they expected, and what they observed. Offer hypotheses and trade-offs. The goal is for them to understand *why* the answer is the answer.
+Help them reason through the problem — do not just hand them the answer. Ask
+what they have tried, what they expected, and what they observed. Offer
+hypotheses and trade-offs. The goal is for them to understand *why* the answer
+is the answer.
 
 ## Project context
 

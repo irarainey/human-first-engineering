@@ -167,7 +167,9 @@ A clear prompt is the by-product of clear thinking.
 *Using AI well is a skill. Using it carelessly is not the same thing.*
 
 - **Match the model to the task** — small, frontier, code-specialised, vision, or agent.
-- **Encode team context in instruction files** and share prompt patterns like utility functions.
+- **Encode team context in `AGENTS.md` where supported, or your tool's native
+  instruction file otherwise,** and share prompt patterns like utility
+  functions.
 - **Treat context as a durable asset** — architecture, decisions, and constraints belong where they outlive the session.
 - **Preserve the reasoning sessions lose** — capture the *why* before compaction destroys it. This is context engineering.
 - **Prompt with precision** — relevant context, not all context.

@@ -74,6 +74,10 @@ Practical patterns a team can adopt incrementally. Start with one; add others on
 - **Valuable when:** any repository used with AI assistants more than occasionally.
 - **Drawback:** grows stale silently; needs an owner and a review trigger.
 
+Prefer `AGENTS.md` at the repository root when your chosen tool supports it.
+OpenCode and GitHub Copilot read it by default. If your tool does not support
+`AGENTS.md`, use its native instruction-file convention instead.
+
 ### Architectural summary (`ARCHITECTURE.md`)
 
 - **Problem it solves:** the shape of the system living only in senior engineers' heads.
@@ -177,7 +181,11 @@ This preserves what Human-First Engineering cares about most: **judgement and un
 1. **Add a `CONTEXT.md`** to one project that spans many sessions. Keep it to a page.
 2. **Start a `DECISIONS.md` index** the next time you make a hard-to-reverse choice, and write the full ADR alongside it — capture the *why* and what you rejected in the ADR, a one-line pointer in the index.
 3. **Tag anything `CRITICAL`** that would cause a real mistake if forgotten.
-4. **Point your tool at it.** In your instruction file, name `CONTEXT.md` as the always-on source and tell the assistant to open linked documents only when relevant. The [instruction-file templates](templates/copilot-instructions.md) already include this.
+4. **Point your tool at it.** Prefer `AGENTS.md` when your tool supports it,
+   naming `CONTEXT.md` as the always-on source and telling the assistant to open
+   linked documents only when relevant. OpenCode and GitHub Copilot use
+   `AGENTS.md` by default; use your tool's native instruction file when it does
+   not. The [instruction-file templates](templates/agents.md) include this.
 5. **Review it in a retro you already run.** Promote what mattered; retire what rotted.
 6. **Give each file a named owner.** That is [Pillar 2](../framework.md#pillar-2-own-the-output) applied to the context layer.
 

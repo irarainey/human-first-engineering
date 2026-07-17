@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // The framework version this site documents. Keep in step with the root VERSION file.
-const hfeVersion = '1.1.1'
+const hfeVersion = '1.1.2'
 
 // Clean, readable heading slugs: strip emoji, em dashes, and punctuation so anchors
 // look like `#pillar-1-think-first` rather than keeping the leading emoji.
@@ -77,6 +77,7 @@ export default defineConfig({
           text: 'Templates & Prompts',
           items: [
             { text: 'Overview', link: '/toolkit/templates/' },
+            { text: 'AGENTS.md', link: '/toolkit/templates/agents' },
             { text: 'Copilot Instructions', link: '/toolkit/templates/copilot-instructions' },
             { text: 'Claude Instructions', link: '/toolkit/templates/claude' },
             { text: 'Problem Frame Prompt', link: '/toolkit/templates/prompts/problem-frame' },

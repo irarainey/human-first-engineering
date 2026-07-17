@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2] - 2026-07-17
+
+**Agent instruction-file guidance**
+
+- Made `AGENTS.md` the preferred template where a chosen tool supports it.
+  OpenCode and GitHub Copilot read it by default.
+- Clarified that tools without `AGENTS.md` support, such as Claude Code, use
+  their own native instruction-file convention.
+- Updated the Context Bootstrap prompt and toolkit examples to use one
+  instruction-file convention for the chosen tool, rather than creating
+  cross-tool compatibility files.
+
 ## [1.1.1] - 2026-07-09
 
 **Context Bootstrap prompt**
